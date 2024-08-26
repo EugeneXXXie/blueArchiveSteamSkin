@@ -84,3 +84,38 @@
 .friendsListSectionTitle {
     background: #14426e;
 }
+
+.titleBarContainer.ChatTabs{
+    background:#76c1f7 ;
+}
+
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_{
+    background: #cde2f1;
+}
+.chatDialogs{
+    background: none;
+}
+
+.chatWindow{
+    background: linear-gradient(to bottom right, #76c1f7, #cde2f1);
+}
+
+.inviteAnotherFriendButton{
+    background: #dcf0ff;
+}
+
+.chatWindow .chatEntry{
+    background: #cde2f1;
+}
+
+._3Ule3rolhZJiBN4yNNtk1s{
+    box-shadow: none;
+    background: #76c1f7;
+}
+
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc{
+    background: #76c1f7;
+}
+.RVIs84dAE6wHcjH9tkinc{
+        border: 1px solid #14186e;
+}
