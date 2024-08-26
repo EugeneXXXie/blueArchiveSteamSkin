@@ -1,0 +1,28 @@
+{
+    "Steam-WebKit": "./css/webkit.css",
+    "Patches": [
+        {
+            "MatchRegexString": ".*http.*steam.*",
+            "TargetJs": "./js/webkit.js"
+        },
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "./css/steam.css",
+            "TargetJs": "./js/steam.js"
+        }
+    ],
+    "UseDefaultPatches": true,
+    "author": "AzusaKis",
+    "description": "Steam Skin Template",
+    "name": "name",
+    "version": "1.0.0",
+    "github": {
+        "owner": "AzusaKis",
+        "repo_name": "https://github.com/EugeneXXXie/basicSteamSkinTemplate.git"
+    },
+    "discord_support": {
+        "inviteCodeExcludingLink": "None"
+    },
+    "header_image": "",
+    "splash_image": ""
+}
