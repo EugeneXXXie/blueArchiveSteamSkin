@@ -1,3 +1,41 @@
-body.v6{
-    background:none;
+.responsive_page_template_content {
+    /* background: url(../imgs/shopBG.jfif); */
+    background: none !important;
+}
+
+.home_ctn.tab_container {
+    background: none !important;
+}
+
+body.v6 {
+    background: none !important;
+}
+
+.home_ctn.tab_container {
+    background: none !important;
+}
+
+.home_ctn.home_content_ctn.bottom_content{
+    display: none !important;
+}
+.small_footer{
+    display: none !important;
+
+}
+
+.responsive_page_content_overlay{
+    z-index: -1 !important;
+    opacity: .4 !important;
+    visibility: visible !important;
+    background: url(../imgs/shopBG.jfif) no-repeat 100% !important;
+    background-position:center center !important;
+}
+
+.apphub_background{
+    background: none !important;
+}
+
+
+body.v6 .page_content_ctn.dark{
+    background: none !important;
 }
