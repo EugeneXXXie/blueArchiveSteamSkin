@@ -1,6 +1,6 @@
 # Blue Archive Theme for Steam
 
-[点击这里查看中文版](./README_zh.md)
+[中文](./README_zh.md)[日本語](./README_jp.md)
 
 This repository contains a custom **Blue Archive** theme for the Steam client. This theme brings the visual style of the popular game "Blue Archive" to your Steam experience, enhancing the look and feel of the Steam interface with vibrant colors, character art, and unique design elements inspired by the game.
 

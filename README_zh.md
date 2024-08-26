@@ -1,6 +1,6 @@
 # 蔚蓝档案主题的 Steam 皮肤
 
-[Engilsh](./README.md)
+[Engilsh](./README.md)[日本語](./README_jp.md)
 
 这个仓库包含一个为 Steam 客户端定制的 **蔚蓝档案**主题。增强 Steam 界面的外观和感觉。
 
