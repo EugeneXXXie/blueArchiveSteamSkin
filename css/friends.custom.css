@@ -1,0 +1,86 @@
+.friendListHeaderContainer {
+    background-color: #76c1f7;
+}
+
+.offline .nOdcT-MoOaXGePXLyPe0H {
+    color: #222;
+}
+
+.online .nOdcT-MoOaXGePXLyPe0H {
+    color: #f66dac;
+}
+
+.titleBarContainer .currentUserContainer ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #ac4c9c;
+}
+
+:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    fill: #ac4c4c;
+}
+
+.offline ._2Ri005Wg_uXDTa71kdRbcN,
+.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #444;
+}
+
+.friendlistListContainer {
+    color: #b4cff1;
+}
+
+.recentChatsGroup .friendGroup .groupName,
+.friendGroup.taggedGroup .groupName,
+.friendGroup.gameGroup .groupName {
+    color: #2e3232;
+}
+
+.friendsui-container .SVGIcon_PlusCircle {
+    stroke: #000;
+}
+
+.friendlistListContainer {
+    background: linear-gradient(to bottom right, #76c1f7, #cde2f1);
+}
+
+.online ._2Ri005Wg_uXDTa71kdRbcN,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #ac4c9c;
+}
+
+.ingame .nOdcT-MoOaXGePXLyPe0H {
+    color: #14186e;
+}
+
+.ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN a,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN a:active,
+.ingame ._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #337883;
+}
+
+.friendListFooter {
+    background-color: #14186e;
+}
+
+.chatRoomListContainer {
+    background-color: #cde2f1;
+}
+
+.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
+    background-color: #000;
+}
+
+.activeTab {
+    background-color: #14426e;
+}
+
+.friendsListSectionTitle {
+    background-color: #14426e;
+}
