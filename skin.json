@@ -12,17 +12,17 @@
         }
     ],
     "UseDefaultPatches": true,
-    "author": "AzusaKis",
+    "author": "EugeneXXXie",
     "description": "Steam Skin Template",
-    "name": "name",
+    "name": "blueArchive",
     "version": "1.0.0",
     "github": {
-        "owner": "AzusaKis",
-        "repo_name": "https://github.com/EugeneXXXie/basicSteamSkinTemplate.git"
+        "owner": "EugeneXXXie",
+        "repo_name": "basicSteamSkinTemplate"
     },
     "discord_support": {
         "inviteCodeExcludingLink": "None"
     },
-    "header_image": "",
-    "splash_image": ""
+    "header_image": "http://ayachinene.top:11080/assets/favicon.8b1ea97d.ico",
+    "splash_image": "http://ayachinene.top:11080/assets/favicon.8b1ea97d.ico"
 }
