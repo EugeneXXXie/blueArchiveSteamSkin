@@ -247,50 +247,11 @@ body._2LxgdMcpWJRjkxZKbmeEEb {
 ._3mdnpmV9S9u27eB5JFwFNk ._3BdWqJYvZfTohY-twD2i6Q {
     color: #000;
 }
-._3yD46y5pd3zOGR7CzKs0mC.offline{
+
+._3yD46y5pd3zOGR7CzKs0mC.offline {
     color: #fff;
 }
 
-
-
-
-
-.friendListHeaderContainer {
-    background-color: #76c1f7;
-}
-
-.offline .nOdcT-MoOaXGePXLyPe0H {
-    color: #222;
-}
-
-.online .nOdcT-MoOaXGePXLyPe0H {
-    color: #f66dac;
-}
-
-.titleBarContainer .currentUserContainer ._2Ri005Wg_uXDTa71kdRbcN {
-    color: #ac4c9c
-}
-
-:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-    fill: #ac4c4c;
-}
-
-.offline ._2Ri005Wg_uXDTa71kdRbcN,
-.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
-.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
-.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
-.offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
-    color: #444;
-}
-
-.friendlistListContainer {
-    color: #b4cff1;
-}
-
-.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName{
-    color: #2e3232;
-}
-
-.friendsui-container .SVGIcon_PlusCircle {
-    stroke: #000;
+._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg{
+    background-color: #88a9cf;
 }

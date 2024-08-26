@@ -66,21 +66,21 @@
 }
 
 .friendListFooter {
-    background-color: #14186e;
+    background: #14186e;
 }
 
 .chatRoomListContainer {
-    background-color: #cde2f1;
+    background: #cde2f1;
 }
 
 .ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
-    background-color: #000;
+    color: #000;
 }
 
 .activeTab {
-    background-color: #14426e;
+    background: #14426e;
 }
 
 .friendsListSectionTitle {
-    background-color: #14426e;
+    background: #14426e;
 }
