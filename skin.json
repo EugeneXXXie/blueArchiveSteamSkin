@@ -14,6 +14,10 @@
             "MatchRegexString": ".friendsui-container",
             "TargetCss": "./css/friends.custom.css",
             "TargetJs": "./js/friends.custom.css.js"
+        },
+        {
+            "MatchRegexString": "https://.*.steampowered.com",
+            "TargetCss": "./css/steam.css",
         }
     ],
     "UseDefaultPatches": true,
