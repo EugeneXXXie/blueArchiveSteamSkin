@@ -25,32 +25,17 @@ body.v6 {
 
 .responsive_page_content_overlay{
     z-index: -1 !important;
-    opacity: 1 !important;
+    opacity: .4 !important;
     visibility: visible !important;
     background: url(../imgs/shopBG.jfif) no-repeat 100% !important;
     background-position:center center !important;
-}
-
-.responsive_page_content_overlay::before {
-    content: '' !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    background-color: rgba(0, 0, 0, .4) !important;
-    z-index: 1 !important;
-    pointer-events: none !important;
 }
 
 .apphub_background{
     background: none !important;
 }
 
+
 body.v6 .page_content_ctn.dark{
     background: none !important;
-}
-
-.game_page_background.game{
-    background:none !important ;
 }
