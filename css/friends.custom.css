@@ -85,37 +85,101 @@
     background: #14426e;
 }
 
-.titleBarContainer.ChatTabs{
-    background:#76c1f7 ;
+.titleBarContainer.ChatTabs {
+    background: #76c1f7;
 }
 
-._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_{
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
     background: #cde2f1;
 }
-.chatDialogs{
+
+.chatDialogs {
     background: none;
 }
 
-.chatWindow{
+.chatWindow {
     background: linear-gradient(to bottom right, #76c1f7, #cde2f1);
 }
 
-.inviteAnotherFriendButton{
+.inviteAnotherFriendButton {
     background: #dcf0ff;
 }
 
-.chatWindow .chatEntry{
+.chatWindow .chatEntry {
     background: #cde2f1;
 }
 
-._3Ule3rolhZJiBN4yNNtk1s{
+._3Ule3rolhZJiBN4yNNtk1s {
     box-shadow: none;
     background: #76c1f7;
 }
 
-._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc{
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
     background: #76c1f7;
 }
-.RVIs84dAE6wHcjH9tkinc{
-        border: 1px solid #14186e;
+
+.RVIs84dAE6wHcjH9tkinc {
+    border: 1px solid #14186e;
+}
+
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited,
+.ingame._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #294d52;
+}
+
+.playerNameQuickAccessContainer .playerNicknameBracket {
+    color: #337883;
+}
+
+._3XEmWmfQy7gbYJ4KJ1N9tp {
+    color: #337883;
+}
+
+.quickAccessFriend .clanName {
+    color: #006cff;
+}
+
+.friend.online {
+    color: #f66dac;
+}
+
+._1DsumfIa3MlkzUV9EXY5W9.in-game ._2n0EiKMGRP-r_BI5tDtttu {
+    color: #256ad1;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName,
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+    color: #486c68;
+}
+
+.msgText {
+    color: #14186e;
+}
+
+.MultiUserChat .isCurrentUser .msgText {
+    color: #14336e;
+}
+
+._113iuw_HlE_qSgt9cGWCSv {
+    color: #14336e;
+}
+
+.OneOnOneVoiceRoomControls {
+    color: #d1ffc4;
+}
+
+._1G1ACDfp4yn4cUO1xY7_d3 {
+    color: #333;
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
+    background: rgb(118, 193, 247);
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF:hover {
+    background-color: #d1ffc4;
 }
