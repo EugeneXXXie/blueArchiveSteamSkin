@@ -19,11 +19,11 @@
     "UseDefaultPatches": true,
     "author": "EugeneXXXie",
     "description": "Steam Skin Template",
-    "name": "blueArchive",
-    "version": "1.0.0",
+    "name": "blueArchiveSteamSkin",
+    "version": "1.0.1",
     "github": {
         "owner": "EugeneXXXie",
-        "repo_name": "blueArchiveSteamSkin"
+        "repo_name": "basicSteamSkinTemplate"
     },
     "discord_support": {
         "inviteCodeExcludingLink": "None"
