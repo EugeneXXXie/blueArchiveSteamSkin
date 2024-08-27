@@ -135,6 +135,10 @@
     color: #337883;
 }
 
+.playerNicknameBracket {
+    color: #333;
+}
+
 ._3XEmWmfQy7gbYJ4KJ1N9tp {
     color: #337883;
 }
@@ -169,7 +173,7 @@
 }
 
 .OneOnOneVoiceRoomControls {
-    color: #d1ffc4;
+    background: #d1ffc4;
 }
 
 ._1G1ACDfp4yn4cUO1xY7_d3 {
@@ -182,4 +186,24 @@
 
 ._3qYm9oxf8MdyvQDJgbfCrF:hover {
     background-color: #d1ffc4;
+}
+
+._2m5YDddCyVhilOuWH-bTC1 {
+    color: #f66dac;
+}
+
+.isCurrentUser ._2m5YDddCyVhilOuWH-bTC1 {
+    color: #08ff14;
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ:hover {
+    color: #b3f5d1;
+}
+
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ {
+    color: #fff;
+}
+
+._1KPraihJAKiBwLJWmOlju2 {
+    color: #14186e;
 }
