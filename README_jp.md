@@ -4,12 +4,14 @@
 
 このリポジトリには、Steamクライアント用のカスタム**ブルーアーカイブ**テーマが含まれています。このテーマは、人気ゲーム「ブルーアーカイブ」のビジュアルスタイルをSteamの体験に取り入れ、鮮やかな色、キャラクターアート、独自のデザイン要素を用いてSteamインターフェースの外観を強化します。
 
-![プレビュー画像 1](./imgs/sample1.png)  
-*ブルーアーカイブテーマの実際の動作プレビュー*  
+![Preview Image 1](./imgs/sample1.png)
+*Game page*
 
-![プレビュー画像 2](./imgs/sample2.png)  
-*ブルーアーカイブテーマのキャラクターアートとデザイン要素*
+![Preview Image 2](./imgs/sample2.png)  
+*Steam Webkit page*
 
+![Preview Image 3](./imgs/sample5.png) ![Preview Image 4](./imgs/sample6.png)  
+*Friends page*  
 ## インストール
 
 ### ステップ1: Millenniumのインストール

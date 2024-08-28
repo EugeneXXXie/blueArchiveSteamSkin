@@ -5,10 +5,14 @@
 这个仓库包含一个为 Steam 客户端定制的 **蔚蓝档案**主题。增强 Steam 界面的外观和感觉。
 
 *蔚蓝档案主题的实际效果预览*  
-![预览图 1](./imgs/sample1.png)  
+![Preview Image 1](./imgs/sample1.png)
+*收藏库*
 
-![预览图 2](./imgs/sample2.png)  
+![Preview Image 2](./imgs/sample2.png)  
+*商店和社群页面*
 
+![Preview Image 3](./imgs/sample5.png) ![Preview Image 4](./imgs/sample6.png)  
+*好友页面*  
 ## 安装
 
 ### 第一步：安装 Millennium
