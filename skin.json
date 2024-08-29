@@ -18,7 +18,7 @@
     ],
     "UseDefaultPatches": true,
     "author": "EugeneXXXie",
-    "description": "Blue Archive Steam Skin Template",
+    "description": "BlueArchive Steam theme",
     "name": "BlueArchive",
     "version": "1.0.1",
     "github": {
@@ -28,7 +28,7 @@
     "discord_support": {
         "inviteCodeExcludingLink": "https://discord.gg/zFxYR529"
     },
-    "header_image": "https://imgur.com/lGMKOxF.png",
-    "splash_image": "https://imgur.com/lGMKOxF.png"
+    "header_image": "https://i.imgur.com/FmhLy1K.jpeg",
+    "splash_image": "https://i.imgur.com/FmhLy1K.jpeg"
 }
 
