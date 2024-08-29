@@ -18,7 +18,7 @@
     ],
     "UseDefaultPatches": true,
     "author": "EugeneXXXie",
-    "description": "Steam Skin Template",
+    "description": "Blue Archive Steam Skin Template",
     "name": "BlueArchive",
     "version": "1.0.1",
     "github": {
@@ -26,7 +26,7 @@
         "repo_name": "blueArchiveSteamSkin"
     },
     "discord_support": {
-        "inviteCodeExcludingLink": "None"
+        "inviteCodeExcludingLink": "https://discord.gg/zFxYR529"
     },
     "header_image": "https://imgur.com/lGMKOxF.png",
     "splash_image": "https://imgur.com/lGMKOxF.png"
