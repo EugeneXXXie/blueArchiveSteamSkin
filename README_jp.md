@@ -4,7 +4,7 @@
 
 このリポジトリには、Steamクライアント用のカスタム**ブルーアーカイブ**テーマが含まれています。このテーマは、人気ゲーム「ブルーアーカイブ」のビジュアルスタイルをSteamの体験に取り入れ、鮮やかな色、キャラクターアート、独自のデザイン要素を用いてSteamインターフェースの外観を強化します。
 
-![Preview Image 1](https://imgur.com/PRTxFJX.png)
+![Preview Image 1](https://i.imgur.com/lGMKOxF.png)
 *Game page*
 
 ![Preview Image 2](https://imgur.com/9sQ4i19.png)  

@@ -25,9 +25,17 @@
         "owner": "EugeneXXXie",
         "repo_name": "blueArchiveSteamSkin"
     },
+    
     "discord_support": {
-        "inviteCodeExcludingLink": "https://discord.gg/zFxYR529"
+        "inviteCodeExcludingLink": "zFxYR529"
     },
+     "tags": [
+    "Blue",
+    "Light",
+    "Anime",
+    "Game"
+  ],
+    
     "header_image": "https://i.imgur.com/FmhLy1K.jpeg",
     "splash_image": "https://i.imgur.com/FmhLy1K.jpeg"
 }

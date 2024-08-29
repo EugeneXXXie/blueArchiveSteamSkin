@@ -5,7 +5,7 @@
 这个仓库包含一个为 Steam 客户端定制的 **蔚蓝档案**主题。增强 Steam 界面的外观和感觉。
 
 *蔚蓝档案主题的实际效果预览*  
-![Preview Image 1](https://imgur.com/PRTxFJX.png)
+![Preview Image 1](https://i.imgur.com/lGMKOxF.png)
 *收藏库*
 
 ![Preview Image 2](https://imgur.com/9sQ4i19.png)  
