@@ -20,23 +20,20 @@
     "author": "EugeneXXXie",
     "description": "BlueArchive Steam theme",
     "name": "BlueArchive",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "github": {
         "owner": "EugeneXXXie",
         "repo_name": "blueArchiveSteamSkin"
     },
-    
     "discord_support": {
         "inviteCodeExcludingLink": "zFxYR529"
     },
-     "tags": [
-    "Blue",
-    "Light",
-    "Anime",
-    "Game"
-  ],
-    
+    "tags": [
+        "Blue",
+        "Light",
+        "Anime",
+        "Game"
+    ],
     "header_image": "https://i.imgur.com/FmhLy1K.jpeg",
     "splash_image": "https://i.imgur.com/FmhLy1K.jpeg"
 }
-

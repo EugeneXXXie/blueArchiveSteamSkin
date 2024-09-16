@@ -1,0 +1,111 @@
+:root {
+    --user-online-color: #f66dac;
+    --user-ingame-color: #14186e;
+    --icon-color: #4a55c1;
+    --main-bg-color: #76c1f7;
+    --text-color-dark: #141414;
+    --bg-color-light-gray: #d3d3d3;
+    --bg-color-dark-blue: #001c54;
+}
+
+.DialogContent._DialogLayout.CFTLX2wIKOK3hNV-fS7_V {
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1);
+}
+
+._2kwFFHckg8jvnwJfg9-la8 {
+    background: var(--main-bg-color);
+}
+
+._2rjVTGz8aLvqOdz5v2gq5C,
+._1cB0qtF0paHWWyj1XNcnbG,
+.DialogBody a {
+    color: var(--user-online-color);
+}
+
+.DialogHeader,
+.SettingsDialogSubHeader,
+.DesktopUI ._3fPiC9QRyT5oJ6xePCVYz8._3fPiC9QRyT5oJ6xePCVYz8 {
+    color: #000;
+}
+
+._1-vlriAtKYDViAEunue4VO,
+._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR.DesktopUI,
+.DesktopUI ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR,
+button.TEWmsM70ZLEOxLAjDMpcv svg {
+    color: var(--icon-color);
+}
+
+.ingame .nOdcT-MoOaXGePXLyPe0H {
+    color: var(--user-ingame-color);
+}
+
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited,
+.ingame._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #0f1249;
+}
+
+.offline .nOdcT-MoOaXGePXLyPe0H {
+    color: #444;
+}
+
+._2kbiwbjuXdmtPSK_YaZCMU,
+._3jMlJm4PQCA8SfNlUR99Fo {
+    color: var(--text-color-dark);
+}
+
+._3epr8QYWw_FqFgMx38YEEm {
+    color: #fff;
+}
+
+._1W1to_azoBRG95oNAFpf9Q {
+    color: #004fa9;
+}
+
+._1ml4SNc3LIyBDHIf8ekVSw {
+    background-color: var(--bg-color-light-gray);
+    box-shadow: inset 0 1px 1px 0px var(--bg-color-light-gray);
+}
+
+.HijmccPB1BKyhOwhX1EVl {
+    background-color: var(--bg-color-dark-blue);
+}
+
+._2LyGIHuQ8SFKb5T262YUvg {
+    background: var(--main-bg-color);
+}
+
+._1W1to_azoBRG95oNAFpf9Q {
+    color: #000 !important;
+}
+
+._1ifM6luJEQ5H2O1Y3S6F_R {
+    color: #3c3c3c3c;
+}
+
+.DialogSubHeader {
+    color: #0077ff !important;
+}
+
+.DialogBodyText {
+    color: #444;
+}
+
+.DialogContent {
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+}
+
+.DialogBodyText {
+    color: #474a4d;
+}
+
+._3pofGqV0buiKAfMPEs3_82 {
+    background: #b2d5ef !important;
+}
+
+.contextMenuItem{
+    color: #000 !important;
+}

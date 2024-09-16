@@ -1,0 +1,12 @@
+@import url("./css/menu$.css");
+.offline *{
+    color: #222 !important;
+}
+
+.online *{
+    color: #f66dac !important;
+}
+
+.ingame *{
+    color: #14186e !important;
+}
