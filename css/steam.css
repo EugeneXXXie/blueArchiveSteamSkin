@@ -1,3 +1,7 @@
+:root{
+    --user-online-color: #f66dac;
+}
+
 @font-face {
     font-family: "wuxin";
     src: url(../fontFamily/mushin.otf);
@@ -41,7 +45,8 @@
 }
 
 ._2gSXCB6PbOlMxslr8hm6dm {
-    background: url(../imgs/mainBG.png) no-repeat 100%;
+    background: url(../imgs/mainBG.png) no-repeat;
+    background-size: cover;
 }
 
 ._1esfEVxhqNfh8fzr_kEGKa ._1ANYFgwMyPpwJjIndAdGSr {
@@ -86,7 +91,8 @@
 }
 
 ._3x1HklzyDs4TEjACrRO2tB {
-    background: url(../imgs/MefDndfh.jpeg) no-repeat 100%;
+    background: url(../imgs/MefDndfh.jpeg) no-repeat;
+    background-size: cover;
     background-position: center center;
 }
 
@@ -103,7 +109,7 @@
 }
 
 .RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2 {
-    background-color: rgb(169, 233, 255);
+    background-color: rgb(184, 237, 255);
 }
 
 ._3Z7VQ1IMk4E3HsHvrkLNgo {
@@ -116,6 +122,7 @@
 }
 
 ._3yD46y5pd3zOGR7CzKs0mC {
+    color: var(--user-online-color) !important;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -160,8 +167,9 @@
 }
 
 ._1l0LmmqDUXH19SjfELddn7 {
-    background: url(../imgs/qla2kEBs.jpeg) no-repeat 100%;
+    background: url(../imgs/qla2kEBs.jpeg) no-repeat;
     background-position: center center;
+    background-size: cover;
 }
 
 ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
@@ -254,7 +262,10 @@ body._2LxgdMcpWJRjkxZKbmeEEb {
 ._1_cYNJSvS6IXs9vLTEYjy5 {
     background: #007ba7;
 }
+
 ._1ENHEsrSLcTRtPQFl1F-wL {
-    background: url(../imgs/2PvxbRjv.jpeg) no-repeat 100%;
+    background: url(../imgs/2PvxbRjv.jpeg) no-repeat;
     background-position: center center;
+    background-size: cover;
+
 }

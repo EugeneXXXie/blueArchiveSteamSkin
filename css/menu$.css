@@ -1,7 +1,7 @@
 :root {
     --user-online-color: #f66dac;
     --user-ingame-color: #14186e;
-    --icon-color: #4a55c1;
+    --icon-color: #23262e;
     --main-bg-color: #76c1f7;
     --text-color-dark: #141414;
     --bg-color-light-gray: #d3d3d3;
@@ -19,7 +19,7 @@
 ._2rjVTGz8aLvqOdz5v2gq5C,
 ._1cB0qtF0paHWWyj1XNcnbG,
 .DialogBody a {
-    color: var(--user-online-color);
+    color: var(--user-online-color) !important;
 }
 
 .DialogHeader,
@@ -90,22 +90,35 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
     color: #0077ff !important;
 }
 
-.DialogBodyText {
-    color: #444;
-}
-
 .DialogContent {
     background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
 }
 
 .DialogBodyText {
-    color: #474a4d;
+    color: #474a4d !important;
 }
 
 ._3pofGqV0buiKAfMPEs3_82 {
     background: #b2d5ef !important;
 }
 
-.contextMenuItem{
-    color: #000 !important;
+._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
+    color: #505050 !important;
+    background: none;
+}
+
+._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 ._1rD8X96FdnksZLvRRlEiCR {
+    color: #505050 !important;
+}
+
+.online .nOdcT-MoOaXGePXLyPe0H {
+    color: var(--user-online-color) !important;
+}
+
+.DialogInput_Wrapper>input.DialogInput {
+    background: rgb(0 0 0 / 62%);
+}
+
+.zhaKeChn9HPNSMtk0ami_ ._1e6tjguQEHdYIehM9aRmO5{
+    background: #464d60;
 }
