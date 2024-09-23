@@ -1,5 +1,4 @@
 .responsive_page_template_content {
-    /* background: url(../imgs/shopBG.jfif); */
     background: none !important;
 }
 
@@ -15,42 +14,41 @@ body.v6 {
     background: none !important;
 }
 
-.home_ctn.home_content_ctn.bottom_content{
+.home_ctn.home_content_ctn.bottom_content {
     display: none !important;
 }
-.small_footer{
+.small_footer {
     display: none !important;
-
 }
 
-.responsive_page_content_overlay{
+.responsive_page_content_overlay {
     z-index: -1 !important;
     opacity: 1 !important;
     visibility: visible !important;
     background: url(../imgs/shopBG.jfif) no-repeat 100% !important;
-    background-position:center center !important;
+    background-position: center center !important;
 }
 
 .responsive_page_content_overlay::before {
-    content: '' !important;
+    content: "" !important;
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    background-color: rgba(0, 0, 0, .4) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
     z-index: 1 !important;
     pointer-events: none !important;
 }
 
-.apphub_background{
+.apphub_background {
     background: none !important;
 }
 
-body.v6 .page_content_ctn.dark{
+body.v6 .page_content_ctn.dark {
     background: none !important;
 }
 
-.game_page_background.game{
-    background:none !important ;
+.game_page_background.game {
+    background: none !important ;
 }

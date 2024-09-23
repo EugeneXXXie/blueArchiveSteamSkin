@@ -1,16 +1,22 @@
+@import url(../global.css);
+
 .friendListHeaderContainer {
-    background-color: #76c1f7;
+    background-color: var(--main-bg-color);
 }
 
 .offline .nOdcT-MoOaXGePXLyPe0H {
-    color: #222;
+    color: var(--text-color-dark);
 }
 
 .online .nOdcT-MoOaXGePXLyPe0H {
-    color: #f66dac;
+    color: var(--user-online-color);
 }
 
-.titleBarContainer .currentUserContainer ._2Ri005Wg_uXDTa71kdRbcN {
+.online ._2Ri005Wg_uXDTa71kdRbcN,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
     color: #ac4c9c;
 }
 
@@ -23,7 +29,7 @@
 .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
 .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
 .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
-    color: #444;
+    color: var(--nav-text-color);
 }
 
 .friendlistListContainer {
@@ -33,27 +39,19 @@
 .recentChatsGroup .friendGroup .groupName,
 .friendGroup.taggedGroup .groupName,
 .friendGroup.gameGroup .groupName {
-    color: #2e3232;
+    color: var(--icon-color);
 }
 
 .friendsui-container .SVGIcon_PlusCircle {
-    stroke: #000;
+    stroke: var(--text-color-dark);
 }
 
 .friendlistListContainer {
-    background: linear-gradient(to bottom right, #76c1f7, #cde2f1);
-}
-
-.online ._2Ri005Wg_uXDTa71kdRbcN,
-.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
-.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
-.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
-.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
-    color: #ac4c9c;
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1);
 }
 
 .ingame .nOdcT-MoOaXGePXLyPe0H {
-    color: #14186e;
+    color: var(--user-ingame-color);
 }
 
 .ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN,
@@ -66,7 +64,7 @@
 }
 
 .friendListFooter {
-    background: #14186e;
+    background: var(--user-ingame-color);
 }
 
 .chatRoomListContainer {
@@ -74,19 +72,19 @@
 }
 
 .ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
-    color: #000;
+    color: var(--text-color-dark);
 }
 
 .activeTab {
-    background: #14426e;
+    background: var(--bg-color-dark-blue);
 }
 
 .friendsListSectionTitle {
-    background: #14426e;
+    background: var(--bg-color-dark-blue);
 }
 
 .titleBarContainer.ChatTabs {
-    background: #76c1f7;
+    background: var(--main-bg-color);
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
@@ -98,7 +96,7 @@
 }
 
 .chatWindow {
-    background: linear-gradient(to bottom right, #76c1f7, #cde2f1);
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1);
 }
 
 .inviteAnotherFriendButton {
@@ -111,15 +109,20 @@
 
 ._3Ule3rolhZJiBN4yNNtk1s {
     box-shadow: none;
-    background: #76c1f7;
+    background: var(--main-bg-color);
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
-    background: #76c1f7;
+    background: none !important;
+    border: none;
 }
 
 .RVIs84dAE6wHcjH9tkinc {
-    border: 1px solid #14186e;
+    border: 1px solid var(--user-ingame-color);
+    background: var(--bg-color-dark-blue) !important;
+}
+.RVIs84dAE6wHcjH9tkinc:hover {
+    background: var(--main-bg-color) !important;
 }
 
 .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN,
@@ -136,7 +139,7 @@
 }
 
 .playerNicknameBracket {
-    color: #333;
+    color: var(--nav-text-color);
 }
 
 ._3XEmWmfQy7gbYJ4KJ1N9tp {
@@ -148,7 +151,7 @@
 }
 
 .friend.online {
-    color: #f66dac;
+    color: var(--user-online-color);
 }
 
 ._1DsumfIa3MlkzUV9EXY5W9.in-game ._2n0EiKMGRP-r_BI5tDtttu {
@@ -161,7 +164,7 @@
 }
 
 .msgText {
-    color: #14186e;
+    color: var(--user-ingame-color);
 }
 
 .MultiUserChat .isCurrentUser .msgText {
@@ -177,11 +180,11 @@
 }
 
 ._1G1ACDfp4yn4cUO1xY7_d3 {
-    color: #333;
+    color: var(--nav-text-color);
 }
 
 ._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
-    background: rgb(118, 193, 247);
+    background: var(--main-bg-color);
 }
 
 ._3qYm9oxf8MdyvQDJgbfCrF:hover {
@@ -189,7 +192,7 @@
 }
 
 ._2m5YDddCyVhilOuWH-bTC1 {
-    color: #f66dac;
+    color: var(--user-online-color);
 }
 
 .isCurrentUser ._2m5YDddCyVhilOuWH-bTC1 {
@@ -205,5 +208,56 @@
 }
 
 ._1KPraihJAKiBwLJWmOlju2 {
-    color: #14186e;
+    color: var(--user-ingame-color);
+}
+
+.VoiceToggle {
+    background: linear-gradient(to bottom right, var(--voice-btn-color-star), var(--voice-btn-color-end)) !important;
+}
+
+.VoiceToggle.Inactive:hover {
+    background: linear-gradient(to bottom right, var(--voice-btn-color-star), var(--voice-btn-color-end)) !important;
+}
+
+.Aupswi7-c-w3XwNO5cp2i:hover,
+.Aupswi7-c-w3XwNO5cp2i:focus {
+    background-color:
+        #1a9fffbb 0%,
+        #1a9fff 100%;
+}
+
+.GreenEnvelopeMenu,
+.PP7LM0Ow1K5qkR8WElLpt {
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+}
+
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf {
+    background: var(--bg-color-light-gray) !important;
+    color: var(--bg-color-dark-blue) !important;
+}
+
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:hover,
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:focus {
+    background: var(--bg-color-dark-blue) !important;
+    color: #fff !important;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI {
+    color: #000;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    background: var(--bg-color-dark-blue);
+}
+
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW SVG,
+.RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i SVG {
+    color: var(--bg-color-light-gray);
+}
+
+.friendsui-container .SVGIcon_TextRoom,
+.friendsui-container .SVGIcon_Button.SVGIcon_TextRoom,
+.friendsui-container .SVGIcon_VoiceRoom,
+.friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
+    color: var(--bg-color-light-gray);
 }

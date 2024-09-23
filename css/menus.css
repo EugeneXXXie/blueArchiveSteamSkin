@@ -1,0 +1,42 @@
+@import url(../global.css);
+
+.DialogInput_Wrapper > input.DialogInput {
+    background: rgb(0 0 0 / 62%);
+}
+
+.zhaKeChn9HPNSMtk0ami_ ._1e6tjguQEHdYIehM9aRmO5 {
+    background: #464d60;
+}
+
+._3B8wRA4H7e_oSksYNqpSPv._1B1XTNsfuwOaDPAkkr8M42 {
+    color: #f3f7f8;
+}
+
+._26v9mHAi56x63OwY-jxett {
+    color: #666;
+}
+
+.contextMenuItem {
+    color: var(--nav-text-color) !important;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n._3pofGqV0buiKAfMPEs3_82 {
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+}
+
+/* steam应用最小化菜单页面背景 */
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt,
+._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+}
+
+/* friendlistMenus */
+.GreenEnvelopeMenu,
+.PP7LM0Ow1K5qkR8WElLpt {
+    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    color: #fff !important;
+    background: #5a6069;
+}

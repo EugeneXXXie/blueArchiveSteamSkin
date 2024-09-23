@@ -1,12 +1,5 @@
-:root {
-    --user-online-color: #f66dac;
-    --user-ingame-color: #14186e;
-    --icon-color: #23262e;
-    --main-bg-color: #76c1f7;
-    --text-color-dark: #141414;
-    --bg-color-light-gray: #d3d3d3;
-    --bg-color-dark-blue: #001c54;
-}
+@import url(../global.css);
+/* settings$ */
 
 .DialogContent._DialogLayout.CFTLX2wIKOK3hNV-fS7_V {
     background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1);
@@ -16,9 +9,11 @@
     background: var(--main-bg-color);
 }
 
-._2rjVTGz8aLvqOdz5v2gq5C,
-._1cB0qtF0paHWWyj1XNcnbG,
-.DialogBody a {
+.online ._2Ri005Wg_uXDTa71kdRbcN,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
+.online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
     color: var(--user-online-color) !important;
 }
 
@@ -83,7 +78,7 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
 }
 
 ._1ifM6luJEQ5H2O1Y3S6F_R {
-    color: #3c3c3c3c;
+    color: #303030 !important;
 }
 
 .DialogSubHeader {
@@ -98,27 +93,19 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
     color: #474a4d !important;
 }
 
-._3pofGqV0buiKAfMPEs3_82 {
-    background: #b2d5ef !important;
-}
-
 ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
-    color: #505050 !important;
+    color: #8d8d8d !important;
     background: none;
 }
 
 ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 ._1rD8X96FdnksZLvRRlEiCR {
-    color: #505050 !important;
+    color: #8d8d8d !important;
 }
 
 .online .nOdcT-MoOaXGePXLyPe0H {
     color: var(--user-online-color) !important;
 }
 
-.DialogInput_Wrapper>input.DialogInput {
-    background: rgb(0 0 0 / 62%);
-}
-
-.zhaKeChn9HPNSMtk0ami_ ._1e6tjguQEHdYIehM9aRmO5{
-    background: #464d60;
+.DialogBody a {
+    color: var(--user-online-color);
 }

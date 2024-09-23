@@ -1,0 +1,12 @@
+:root {
+    --user-online-color: #f66dac;
+    --user-ingame-color: #14186e;
+    --icon-color: #23262e;
+    --main-bg-color: #76c1f7;
+    --text-color-dark: #141414;
+    --bg-color-light-gray: #d3d3d3;
+    --bg-color-dark-blue: #001c54;
+    --nav-text-color: rgb(68, 68, 68);
+    --voice-btn-color-star: rgb(17, 162, 36);
+    --voice-btn-color-end: rgb(16, 205, 78);
+}

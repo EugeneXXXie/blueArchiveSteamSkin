@@ -1,17 +1,3 @@
-@import url("./css/menu$.css");
-
-/* .offline>* {
-    color: #222 !important;
-}
-
-.online>* {
-    color: #f66dac !important;
-}
-
-.ingame>* {
-    color: #14186e !important;
-} */
-
-.contextMenuItem {
-    color: #000 !important;
-}
+@import url(./css/settings.css);
+/* settings$ */
+@import url(./global.css);

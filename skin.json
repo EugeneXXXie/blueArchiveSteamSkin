@@ -14,13 +14,21 @@
             "MatchRegexString": ".friendsui-container",
             "TargetCss": "./css/friends.custom.css",
             "TargetJs": "./js/friends.custom.css.js"
+        },
+        {
+            "MatchRegexString": "Menu$",
+            "TargetCss": "./css/menus.css"
+        },
+        {
+            "MatchRegexString": "Supernav$",
+            "TargetCss": "./css/supernavs.css"
         }
     ],
     "UseDefaultPatches": true,
     "author": "EugeneXXXie",
     "description": "BlueArchive Steam theme",
     "name": "BlueArchive",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "github": {
         "owner": "EugeneXXXie",
         "repo_name": "blueArchiveSteamSkin"
