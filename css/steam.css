@@ -121,7 +121,7 @@
 
 ._3yD46y5pd3zOGR7CzKs0mC.online {
     color: var(--user-online-color) !important;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 ._3yD46y5pd3zOGR7CzKs0mC.ingame {
     color: var(--user-ingame-color) !important;
