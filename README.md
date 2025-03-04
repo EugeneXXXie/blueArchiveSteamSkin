@@ -4,14 +4,14 @@
 
 This repository contains a custom **Blue Archive** theme for the Steam client. This theme brings the visual style of the popular game "Blue Archive" to your Steam experience, enhancing the look and feel of the Steam interface with vibrant colors, character art, and unique design elements inspired by the game.
 
-![Preview Image 1](https://i.imgur.com/lGMKOxF.png)
+![Preview Image 1](https://i.imgur.com/8uL9Izt.png)
 *Game page*
 
-![Preview Image 2](https://imgur.com/9sQ4i19.png)  
+![Preview Image 2](https://imgur.com/3r3BhCV.png)  
 *Steam Webkit page*
 
-![Preview Image 3](https://i.imgur.com/QvtLKYC.png)
-![Preview Image 4](https://i.imgur.com/jKtIoI1.png)  
+![Preview Image 3](https://i.imgur.com/eEBc4i8.png)
+![Preview Image 4](https://i.imgur.com/jXD914M.png)  
 *Friends page*  
 
 ## Installing
@@ -30,13 +30,13 @@ For detailed instructions on installing Millennium, please visit [steambrew.app]
 1. Download and extract the contents of this repository.
 2. Place the extracted folder into `steam\steamui\skins`.
 
-![Installation Image](https://i.imgur.com/o5xwqek.png)  
+![Installation Image](https://i.imgur.com/IhHW4RQ.png)  
 *Example of the theme folder placed in the skins directory*
 
 3. Open Steam, go to `Settings`.
 4. Navigate to the `Themes` tab and select the Blue Archive theme.
 
-![Settings Image](https://i.imgur.com/mI0XaW5.png)
+![Settings Image](https://i.imgur.com/K52MIbc.png)
 *Navigate to Settings -> Themes and select the Blue Archive theme*
 
 Enjoy your new Blue Archive theme on Steam!
