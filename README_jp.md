@@ -4,14 +4,14 @@
 
 このリポジトリには、Steamクライアント用のカスタム**ブルーアーカイブ**テーマが含まれています。このテーマは、人気ゲーム「ブルーアーカイブ」のビジュアルスタイルをSteamの体験に取り入れ、鮮やかな色、キャラクターアート、独自のデザイン要素を用いてSteamインターフェースの外観を強化します。
 
-![Preview Image 1](https://i.imgur.com/8uL9Izt.png)
+![Preview Image 1](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Gamepage.png)
 *Game page*
 
-![Preview Image 2](https://imgur.com/3r3BhCV.png)  
+![Preview Image 2](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/SteamWebkitpage.png)  
 *Steam Webkit page*
 
-![Preview Image 3](https://i.imgur.com/eEBc4i8.png)
-![Preview Image 4](https://i.imgur.com/jXD914M.png)  
+![Preview Image 3](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Friendspage1.png)
+![Preview Image 4](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Friendspage2.png)  
 *Friends page*  
 ## インストール
 
@@ -29,13 +29,13 @@ Millenniumのインストールに関する詳細な手順については、[ste
 1. このリポジトリの内容をダウンロードして解凍します。
 2. 解凍したフォルダを `steam\steamui\skins` ディレクトリに配置します。
 
-![インストール画像](https://i.imgur.com/IhHW4RQ.png)  
+![インストール画像](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/directory.png)  
 *skinsディレクトリにテーマフォルダを配置する例*
 
 3. Steamを開き、「設定」に進みます。
 4. 「テーマ」タブに移動して、ブルーアーカイブテーマを選択します。
 
-![設定画像](https://i.imgur.com/K52MIbc.png)  
+![設定画像](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Settings.png)  
 *設定 -> テーマに移動し、ブルーアーカイブテーマを選択*
 
 新しいブルーアーカイブのSteamテーマを楽しんでください！
