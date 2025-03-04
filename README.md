@@ -4,7 +4,7 @@
 
 This repository contains a custom **Blue Archive** theme for the Steam client. This theme brings the visual style of the popular game "Blue Archive" to your Steam experience, enhancing the look and feel of the Steam interface with vibrant colors, character art, and unique design elements inspired by the game.
 
-![Preview Image 1](blob:https://github.com/2eba9389-df15-4241-ae42-39fd4dbfa571)
+![Preview Image 1]([blob:https://github.com/2eba9389-df15-4241-ae42-39fd4dbfa571](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Friendspage1.png))
 *Game page*
 
 ![Preview Image 2](https://imgur.com/3r3BhCV.png)  
