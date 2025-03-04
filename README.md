@@ -4,14 +4,14 @@
 
 This repository contains a custom **Blue Archive** theme for the Steam client. This theme brings the visual style of the popular game "Blue Archive" to your Steam experience, enhancing the look and feel of the Steam interface with vibrant colors, character art, and unique design elements inspired by the game.
 
-![Preview Image 1](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Gamepage.png)
+![Preview Image 1](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Gamepage.png)
 *Game page*
 
-![Preview Image 2](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/SteamWebkitpage.png)  
+![Preview Image 2](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/SteamWebkitpage.png)  
 *Steam Webkit page*
 
-![Preview Image 3](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Friendspage1.png)
-![Preview Image 4](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Friendspage2.png)  
+![Preview Image 3](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage1.png)
+![Preview Image 4](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage2.png)  
 *Friends page*  
 
 ## Installing
@@ -30,13 +30,13 @@ For detailed instructions on installing Millennium, please visit [steambrew.app]
 1. Download and extract the contents of this repository.
 2. Place the extracted folder into `steam\steamui\skins`.
 
-![Installation Image](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/directory.png)  
+![Installation Image](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/directory.png)  
 *Example of the theme folder placed in the skins directory*
 
 3. Open Steam, go to `Settings`.
 4. Navigate to the `Themes` tab and select the Blue Archive theme.
 
-![Settings Image](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Settings.png)
+![Settings Image](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Settings.png)
 *Navigate to Settings -> Themes and select the Blue Archive theme*
 
 Enjoy your new Blue Archive theme on Steam!
