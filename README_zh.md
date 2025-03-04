@@ -5,14 +5,14 @@
 这个仓库包含一个为 Steam 客户端定制的 **蔚蓝档案**主题。增强 Steam 界面的外观和感觉。
 
 *蔚蓝档案主题的实际效果预览*  
-![Preview Image 1](https://i.imgur.com/8uL9Izt.png)
+![Preview Image 1](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Gamepage.png)
 *收藏库*
 
-![Preview Image 2](https://imgur.com/3r3BhCV.png)  
+![Preview Image 2](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/SteamWebkitpage.png)  
 *商店和社群页面*
 
-![Preview Image 3](https://i.imgur.com/eEBc4i8.png) 
-![Preview Image 4](https://i.imgur.com/jXD914M.png)  
+![Preview Image 3](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Friendspage1.png) 
+![Preview Image 4](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Friendspage2.png)  
 *好友页面*  
 ## 安装
 
@@ -30,13 +30,13 @@
 1. 下载并解压本仓库的内容。
 2. 将解压后的文件夹放入 `steam\steamui\skins` 目录中。
 
-![安装图片](https://i.imgur.com/IhHW4RQ.png)  
+![安装图片](hhttps://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/directory.png)  
 *将主题文件夹放入 skins 目录中的示例*
 
 3. 打开 Steam，进入 `设置`。
 4. 导航到 `主题` 选项卡，选择蔚蓝档案主题。
 
-![设置图片](https://i.imgur.com/K52MIbc.png)  
+![设置图片](https://github.com/EugeneXXXie/imagesBase/blob/969c32d8292ab68c7a0de69e4863fbce57364bd4/blueArchiveSteamSkinImages/Settings.png)  
 *导航到设置 -> 主题，选择蔚蓝档案主题*
 
 享受你的全新蔚蓝档案 Steam 主题吧！
