@@ -10,3 +10,6 @@
     --voice-btn-color-star: rgb(17, 162, 36);
     --voice-btn-color-end: rgb(16, 205, 78);
 }
+*{
+    cursor:url('imgs/cursor-default.png') 3 3,auto;
+}
