@@ -4,16 +4,24 @@
 
 这个仓库包含一个为 Steam 客户端定制的 **蔚蓝档案**主题。增强 Steam 界面的外观和感觉。
 
-*蔚蓝档案主题的实际效果预览*  
-![Preview Image 1](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Gamepage.png)
-*收藏库*
+*↓↓↓蔚蓝档案主题的实际效果预览↓↓↓*
 
-![Preview Image 2](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/SteamWebkitpage.png)  
-*商店和社群页面*
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Gamepage.png" width="711px">
 
-![Preview Image 3](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage1.png) 
-![Preview Image 4](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage2.png)  
-*好友页面*  
+↓↓↓可隐藏新闻页面，让界面更整洁，专注于游戏内容。↓↓↓
+
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/showHowToHide.gif" width="711px">
+
+*↑↑↑收藏库↑↑↑*
+
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/SteamWebkitpage.png" width="711px">
+
+*↑↑↑商店和社群页面↑↑↑*
+
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage1.png" height='400px'>
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage2.png" height='400px'>
+
+*↑↑↑好友页面↑↑↑*  
 ## 安装
 
 ### 第一步：安装 Millennium
@@ -30,15 +38,16 @@
 1. 下载并解压本仓库的内容。
 2. 将解压后的文件夹放入 `steam\steamui\skins` 目录中。
 
-![安装图片](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/directory.png)  
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/directory.png" width='711px'>
+
 *将主题文件夹放入 skins 目录中的示例*
 
 3. 打开 Steam，进入 `设置`。
 4. 导航到 `主题` 选项卡，选择蔚蓝档案主题。
 
-![设置图片](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Settings.png)  
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Settings.png" width='711px'>
+
 *导航到设置 -> 主题，选择蔚蓝档案主题*
 
 享受你的全新蔚蓝档案 Steam 主题吧！
 
-偷偷告诉你 README我使用gpt写的 纯懒狗来的:)。

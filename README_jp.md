@@ -2,40 +2,51 @@
 
 [English](https://github.com/EugeneXXXie/blueArchiveSteamSkin/blob/main/README.md)    [中文](https://github.com/EugeneXXXie/blueArchiveSteamSkin/blob/main/README_zh.md)
 
-このリポジトリには、Steamクライアント用のカスタム**ブルーアーカイブ**テーマが含まれています。このテーマは、人気ゲーム「ブルーアーカイブ」のビジュアルスタイルをSteamの体験に取り入れ、鮮やかな色、キャラクターアート、独自のデザイン要素を用いてSteamインターフェースの外観を強化します。
+このリポジトリには、Steamクライアント用にカスタマイズされた**ブルーアーカイブ**テーマが含まれており、Steamインターフェースの外観と感覚を強化します。
 
-![Preview Image 1](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Gamepage.png)
-*Game page*
+*↓↓↓ブルーアーカイブテーマの実際のプレビュー↓↓↓*
 
-![Preview Image 2](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/SteamWebkitpage.png)  
-*Steam Webkit page*
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Gamepage.png" width="711px">
 
-![Preview Image 3](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage1.png)
-![Preview Image 4](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage2.png)  
-*Friends page*  
+↓↓↓ News & Eventsページは隠して、ゲームコンテンツに集中できるように、よりクリーンなインターフェースを提供します。↓↓↓
+
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/showHowToHide.gif" width="711px">
+
+*↑↑↑ ライブラリ ↑↑↑*
+
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/SteamWebkitpage.png" width="711px">
+
+*↑↑↑ STORE と COMMUNITY ページ ↑↑↑*
+
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage1.png" height='400px'>
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Friendspage2.png" height='400px'>
+
+*↑↑↑ フレンドページ ↑↑↑*  
 ## インストール
 
-### ステップ1: Millenniumのインストール
+### ステップ1：Millenniumのインストール
 
-このテーマを適用するには、Millenniumをインストールする必要があります。自動インストーラーを使用するか、手動でセットアップすることができます。
+このテーマを適用するには、まずMillenniumをインストールする必要があります。自動インストーラーを使用するか、手動でセットアップすることができます。
 
-1. **自動インストール**: 提供されたインストールスクリプトを使用してオペレーティングシステムにインストールします。
-2. **手動インストール**: 必要なファイルを手動でダウンロードし配置する手順に従ってください。
+1. **自動インストール**：お使いのオペレーティングシステム用に提供されたインストールスクリプトを使用してください。
+2. **手動インストール**：手動でダウンロードし、必要なファイルを配置する手順に従ってください。
 
 Millenniumのインストールに関する詳細な手順については、[steambrew.app](https://steambrew.app/)をご覧ください。
 
-### ステップ2: ブルーアーカイブテーマのインストール
+### ステップ2：ブルーアーカイブテーマのインストール
 
 1. このリポジトリの内容をダウンロードして解凍します。
-2. 解凍したフォルダを `steam\steamui\skins` ディレクトリに配置します。
+2. 解凍したフォルダを `steam\steamui\skins` ディレクトリに置きます。
 
-![インストール画像](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/directory.png)  
-*skinsディレクトリにテーマフォルダを配置する例*
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/directory.png" width='711px'>
 
-3. Steamを開き、「設定」に進みます。
-4. 「テーマ」タブに移動して、ブルーアーカイブテーマを選択します。
+*テーマフォルダをskinsディレクトリに配置する例*
 
-![設定画像](https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Settings.png)  
-*設定 -> テーマに移動し、ブルーアーカイブテーマを選択*
+3. Steamを開き、`設定`に移動します。
+4. `インターフェース`タブに移動し、ブルーアーカイブテーマを選択します。
 
-新しいブルーアーカイブのSteamテーマを楽しんでください！
+<img src="https://raw.githubusercontent.com/EugeneXXXie/imagesBase/master/blueArchiveSteamSkinImages/Settings.png" width='711px'>
+
+*設定 -> インターフェースに移動し、ブルーアーカイブテーマを選択*
+
+新しいブルーアーカイブSteamテーマをお楽しみください！
