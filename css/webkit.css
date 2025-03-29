@@ -26,8 +26,8 @@ body.v6 {
     z-index: -1 !important;
     opacity: 1 !important;
     visibility: visible !important;
-    background: url(../imgs/shopBG.jfif) no-repeat 100% !important;
-    background-position: center center !important;
+    background: url(../imgs/shopBG.jfif) no-repeat center center !important;
+    background-size: cover !important;
 }
 
 .responsive_page_content_overlay::before {
