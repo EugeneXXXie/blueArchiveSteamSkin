@@ -16,9 +16,11 @@
     color: #666;
 }
 
-.contextMenuItem {
+.contextMenuItem{
     color: var(--nav-text-color) !important;
 }
+
+/*主题背景色*/
 
 ._2EstNjFIIZm_WUSKm5Wt7n._3pofGqV0buiKAfMPEs3_82 {
     background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
@@ -35,8 +37,18 @@
 .PP7LM0Ow1K5qkR8WElLpt {
     background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
 }
+/*主题背景色*/
 
 ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     color: #fff !important;
     background: #5a6069;
+}
+
+._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG:hover{
+    color: var(--nav-text-color) !important;
+}
+
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI{
+    color: var(--nav-text-color) !important;
+
 }

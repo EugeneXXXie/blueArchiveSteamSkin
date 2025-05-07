@@ -1,15 +1,25 @@
 :root {
-    --user-online-color: #f66dac;
+    --user-online-color: rgb(201 147 157);
+    --momo-theme-color: rgb(251, 144, 163);
     --user-ingame-color: #14186e;
     --icon-color: #23262e;
     --main-bg-color: #76c1f7;
     --text-color-dark: #141414;
     --bg-color-light-gray: #d3d3d3;
-    --bg-color-dark-blue: #001c54;
+    --bg-color-dark-blue: rgb(76, 91, 111);
     --nav-text-color: rgb(68, 68, 68);
     --voice-btn-color-star: rgb(17, 162, 36);
     --voice-btn-color-end: rgb(16, 205, 78);
+    --friend-list-bg-color:rgb(243, 247, 248);
+    --friend-list-light-blue:rgb(209 236 255);
+    --text-input-bg-color:#f7f7f6;
 }
 *{
     cursor:url('imgs/cursor-default.png') 3 3,auto;
 }
+
+/*
+TODO:
+   1.细节颜色调整
+   2.游戏启动页面的位置调整和色彩优化
+*/

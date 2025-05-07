@@ -1,7 +1,7 @@
 @import url(../global.css);
 
 .friendListHeaderContainer {
-    background-color: var(--main-bg-color);
+    background-color: #f2f8fb;
 }
 
 .offline .nOdcT-MoOaXGePXLyPe0H {
@@ -17,7 +17,7 @@
 .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover,
 .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active,
 .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
-    color: #ac4c9c;
+    color: #d19dc8;
 }
 
 :not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
@@ -47,7 +47,7 @@
 }
 
 .friendlistListContainer {
-    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1);
+    background: var(--friend-list-bg-color);
 }
 
 .ingame .nOdcT-MoOaXGePXLyPe0H {
@@ -64,11 +64,11 @@
 }
 
 .friendListFooter {
-    background: var(--user-ingame-color);
+    background: var(--momo-theme-color);
 }
 
 .chatRoomListContainer {
-    background: #cde2f1;
+    background: var(--friend-list-bg-color);
 }
 
 .ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
@@ -76,19 +76,19 @@
 }
 
 .activeTab {
-    background: var(--bg-color-dark-blue);
+    background: var(--friend-list-light-blue);
 }
 
 .friendsListSectionTitle {
-    background: var(--bg-color-dark-blue);
+    background: var(--friend-list-light-blue);
 }
 
 .titleBarContainer.ChatTabs {
-    background: var(--main-bg-color);
+    background: var(--momo-theme-color);
 }
 
 ._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
-    background: #cde2f1;
+    background: rgb(249 214 222);
 }
 
 .chatDialogs {
@@ -96,7 +96,7 @@
 }
 
 .chatWindow {
-    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1);
+    background: var(--friend-list-bg-color);
 }
 
 .inviteAnotherFriendButton {
@@ -109,7 +109,7 @@
 
 ._3Ule3rolhZJiBN4yNNtk1s {
     box-shadow: none;
-    background: var(--main-bg-color);
+    background: var(--text-input-bg-color);
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
@@ -121,6 +121,7 @@
     border: 1px solid var(--user-ingame-color);
     background: var(--bg-color-dark-blue) !important;
 }
+
 .RVIs84dAE6wHcjH9tkinc:hover {
     background: var(--main-bg-color) !important;
 }
@@ -163,12 +164,39 @@
     color: #486c68;
 }
 
+/*chat文字样式*/
 .msgText {
-    color: var(--user-ingame-color);
+    color: #fff !important;
+    display: inline-block;
+    background: #4c5b6f;
+    padding: 5px 10px;
+    border-radius: 13px;
+    line-height: normal;
+    font-size: 18px;
+}
+
+.ChatSpeaker.ChatRoomSpeaker.SpeakerLineBreak.isCurrentUser {
+    display: none;
+    /* 隐藏自己的信息*/
+}
+
+.MultiUserChat .msg:not(.ChatMsgSlashEmote) {
+    margin-top: 10px;
+}
+
+.MultiUserChat .isCurrentUser {
+    text-align: right;
+}
+
+.MultiUserChat .isCurrentUser img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
 }
 
 .MultiUserChat .isCurrentUser .msgText {
-    color: #14336e;
+    background: #4a8aca;
 }
 
 ._113iuw_HlE_qSgt9cGWCSv {
@@ -219,13 +247,6 @@
     background: linear-gradient(to bottom right, var(--voice-btn-color-star), var(--voice-btn-color-end)) !important;
 }
 
-.Aupswi7-c-w3XwNO5cp2i:hover,
-.Aupswi7-c-w3XwNO5cp2i:focus {
-    background-color:
-        #1a9fffbb 0%,
-        #1a9fff 100%;
-}
-
 .GreenEnvelopeMenu,
 .PP7LM0Ow1K5qkR8WElLpt {
     background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
@@ -260,4 +281,98 @@
 .friendsui-container .SVGIcon_VoiceRoom,
 .friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
     color: var(--bg-color-light-gray);
+}
+
+/*chat页面 chat与好友选项卡的分割线*/
+.chatWindow .chatHeader {
+    background: var(--friend-list-light-blue) !important;
+}
+
+/*隐藏chat页面阴影*/
+/*top*/
+._1osHa9KHOmdCDNrA232z4N {
+    background: none;
+}
+
+/*bottom*/
+._2OoTJwlWvzvAysWOOEQaXS {
+    background: none;
+
+}
+
+/*当input框键入时改变的颜色*/
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
+    fill: #72dbff;
+}
+
+/*chat滚动块*/
+.chatHistoryScroll {
+    /*margin-top: 40px;*/
+    padding-top:40px ;
+}
+
+.msg.isCurrentUser.ChatMessageErrorSending {
+    /*频繁发送警告信息*/
+    background: none;
+}
+
+/*滚动到底部*/
+.ScrollToBottomButton > span {
+    background: #cde2f1 !important;
+}
+
+.chatImageContainer.parentSelector {
+    background: none;
+}
+
+.chatFileUploadPreviewContainer{
+    background: var(--friend-list-bg-color);
+}
+
+/*两项上传图片卡片*/
+
+.chatFileUploadProgressContainer{
+    background: var(--friend-list-bg-color);
+}
+
+/*鼠标hover到用户头像上后*/
+.quickAccessFriends .favoriteElement:hover .friend .playerName{
+    color: #000;
+}
+.quickAccessFriends .friend.ingame{
+    color: #99cd5b;
+}
+
+.chatImageContainer img{
+    /*调整图片到对的位置*/
+    position: relative;
+    transform:translateY(-100%);
+}
+
+.MultiUserChat .isCurrentUser img{
+    /*表情的msgText*/
+    display: inline-block;
+}
+
+.UA15KlVbtDSJkqSpIAMIN {
+    /*表情回复*/
+    background: var(--momo-theme-color);
+}
+
+._1HNpQBKKKQ1tG2OZH3CSsh{
+    /*群聊名称*/
+    color: #448079;
+}
+.chatRoomGroupHeaderName{
+    /*群聊名称*/
+    color: #448079;
+}
+
+.chatRoomTextChannel:hover, .chatRoomVoiceChannel:hover .chatRoomVoiceChannelName, .chatRoomTextChannel:hover .chatRoomTextChannel{
+    /*群聊分组hover效果*/
+    color: #000;
+}
+.chatRoomTextChannel:hover .SVGIcon_TextRoom .TextLines{
+    /*群聊分组hover效果SVG*/
+    stroke: #000;
 }
