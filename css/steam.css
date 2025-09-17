@@ -24,19 +24,19 @@
     color: rgba(0, 0, 0, .5);
 }
 
-._2rlKqvybYupc-uk64cdQ8D{
+._2rlKqvybYupc-uk64cdQ8D {
     color: #000 !important;
 }
 
-._17uEBe5Ri8TMsnfELvs8-N .DVBcpUzJ0x6kaRMfug0OJ{
+._17uEBe5Ri8TMsnfELvs8-N .DVBcpUzJ0x6kaRMfug0OJ {
     color: #000 !important;
 }
 
-._3_xMyCJAh_Dv99KgZ54P3j{
-    background-color: rgba(95,101,107,.4);
+._3_xMyCJAh_Dv99KgZ54P3j {
+    background-color: rgba(95, 101, 107, .4);
 }
 
-._17uEBe5Ri8TMsnfELvs8-N ._2AUVZlzQq67qe3yhLZsPPB{
+._17uEBe5Ri8TMsnfELvs8-N ._2AUVZlzQq67qe3yhLZsPPB {
     color: rgb(0 0 0 / 90%);
 }
 
@@ -145,10 +145,12 @@
     color: var(--user-online-color) !important;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 ._3yD46y5pd3zOGR7CzKs0mC.ingame {
     color: var(--user-ingame-color) !important;
     background-color: rgba(0, 0, 0, 0.2);
 }
+
 ._3yD46y5pd3zOGR7CzKs0mC.offline {
     color: var(--bg-color-light-gray) !important;
     background-color: rgba(0, 0, 0, 0.7);
@@ -297,12 +299,112 @@ body._2LxgdMcpWJRjkxZKbmeEEb {
     color: var(--text-color-dark) !important;
 }
 
-._1TdaAqMFadi0UTqilrkelR{
+._1TdaAqMFadi0UTqilrkelR {
     padding: 4px;
     background: #fa94a6;
     border-radius: 10px;
 }
 
-._2foCkpRXhqq0UGVE50BWqj{
+._2foCkpRXhqq0UGVE50BWqj {
     width: 210px !important;
+}
+
+/* =======================
+   🎮 游戏页面自定义样式
+   父容器：._1_cYNJSvS6IXs9vLTEYjy5
+   ======================= */
+
+/* =======================
+   🔗 页面链接区域
+   （例如“开始游戏”下面的链接 / 菜单项）
+   ======================= */
+._1_cYNJSvS6IXs9vLTEYjy5 ._2sNDjgK9EWiPLdNGkjun-w {
+    color: rgba(255, 255, 255, .7) !important;
+}
+
+/* =======================
+   ⏰ 游戏时间显示
+   （动态卡片中的“几小时前”“几分钟前”之类的时间文字）
+   ======================= */
+._1_cYNJSvS6IXs9vLTEYjy5 ._2TYVGoD27ZMfjRirKQNLfk {
+    color: rgba(255, 255, 255, .54);
+}
+
+/* =======================
+   📌 其他常规文字
+   - 动态内容主要文字
+   - 右侧卡片里的标题
+   ======================= */
+._1_cYNJSvS6IXs9vLTEYjy5 ._34lrt5-Fc3usZU6trA1P0- {
+    color: rgba(255, 255, 255, .84);
+}
+
+/* 灰色弱化文字（日期 / 更新提示 / 副标题等） */
+._1_cYNJSvS6IXs9vLTEYjy5 ._19LfMT7PFWg2xHOqNjR99q,
+/* 游戏动态日期 */
+._1_cYNJSvS6IXs9vLTEYjy5 .QCKBqF2k_sRLcXJ5qQIEl,
+/* 次级标题 */
+._1_cYNJSvS6IXs9vLTEYjy5 .Gy1Y7lb4Y47vK8odzSru2,
+/* 时间戳或次要描述 */
+._1_cYNJSvS6IXs9vLTEYjy5 ._1ujzuoxGhLunHZQqHAqRgg,
+/* 更新标记文字 */
+._1_cYNJSvS6IXs9vLTEYjy5 ._2EyEa4GxazAthx5c83AUGO {
+    /* 其他灰色说明文字 */
+    color: #cdcdcd !important;
+}
+
+/* 中度灰色文字（按钮、动态标题、右侧模块） */
+._1_cYNJSvS6IXs9vLTEYjy5 ._1Q2q_tQ9_Eq8YdEHNAHS3F,
+/* 动态标题 */
+._1_cYNJSvS6IXs9vLTEYjy5 ._39ZurKJQex6v69aXzvc_nj,
+/* 加载更多按钮 */
+._1_cYNJSvS6IXs9vLTEYjy5 .uoFNFZ7Hs5cF1IjP2fvPw,
+/* 右侧边栏描述 */
+._1_cYNJSvS6IXs9vLTEYjy5 ._2H1MiFt6wMYuJDB8kZElFs,
+/* 右侧模块文字 */
+._1_cYNJSvS6IXs9vLTEYjy5 ._2_TE0KLOU7kWWxa9LS7iXA div,
+/* 右侧模块内层 */
+._1_cYNJSvS6IXs9vLTEYjy5 .BDa6lbTAdR4RwtqgRNUnO {
+    /* 右侧附加说明 */
+    color: #e3e3e3 !important;
+}
+
+/* 右侧弹窗按钮 */
+._1_cYNJSvS6IXs9vLTEYjy5 button.DialogButton._3Cdin80d-hVsakHUZboheb {
+    color: #cfcfcf !important;
+}
+
+/* =======================
+   🎨 SVG 图标统一描边颜色
+   （用于按钮上的箭头、折线图、图标边框等）
+   ======================= */
+._1_cYNJSvS6IXs9vLTEYjy5 ._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg polyline,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg path,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1aKegVl9_lSdNAyWYZQlr9 ._1UXbBdCvbg9tyZhc4owO4W svg polyline,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1aKegVl9_lSdNAyWYZQlr9 ._1UXbBdCvbg9tyZhc4owO4W svg path,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1kiZKVbDe-9Ikootk57kpA .MbTRimZpGCATmn39ae8RT,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1kiZKVbDe-9Ikootk57kpA .k-QNT9kzOEOvG0U_kGmwr {
+    stroke: rgba(255, 255, 255, .8);
+}
+
+/* =======================
+   👍 按赞 / 评论图标
+   （动态卡片下方的交互按钮：点赞、评论、分享）
+   ======================= */
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC svg,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC path,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 svg,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 path,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN svg,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN path,
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ ._3grvnr9zzkvx6NoBOdmTnf,
+/* 点赞数 */
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ ._2RkIcXHXACX4EdBluR3nAH,
+/* 评论数 */
+._1_cYNJSvS6IXs9vLTEYjy5 ._1yWgPveQ73QeYCdLcs6oFQ ._1S3Q9rK5wn6PAIXII0mBz4,
+/* 分享数 */
+._1_cYNJSvS6IXs9vLTEYjy5 ._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz- svg {
+    /* 其他交互图标 */
+    fill: #cdcdcd !important;
+    color: #cdcdcd !important;
 }
