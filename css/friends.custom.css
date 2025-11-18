@@ -188,7 +188,7 @@
     text-align: right;
 }
 
-.MultiUserChat .isCurrentUser img{
+.MultiUserChat .isCurrentUser img {
     max-width: 100%;
     height: auto;
     display: block;
@@ -247,9 +247,55 @@
     background: linear-gradient(to bottom right, var(--voice-btn-color-star), var(--voice-btn-color-end)) !important;
 }
 
-.GreenEnvelopeMenu,
-.PP7LM0Ow1K5qkR8WElLpt {
-    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+/* 右键菜单 */
+/* 圆角添加 */
+.popup_chat_frame:has(.PP7LM0Ow1K5qkR8WElLpt) .PP7LM0Ow1K5qkR8WElLpt {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.popup_chat_frame:has(.PP7LM0Ow1K5qkR8WElLpt) ._2EstNjFIIZm_WUSKm5Wt7n {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.popup_chat_frame:has(.PP7LM0Ow1K5qkR8WElLpt) .PP7LM0Ow1K5qkR8WElLpt.visible ._2EstNjFIIZm_WUSKm5Wt7n {
+    /*主题背景色*/
+    background: rgb(233, 232, 231) !important;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 修改颜色 */
+.popup_chat_frame:has(.PP7LM0Ow1K5qkR8WElLpt) ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: rgb(33, 52, 76);
+}
+
+.popup_chat_frame:has(.PP7LM0Ow1K5qkR8WElLpt) ._18z-3vkWndCBO5WJgFldRK {
+    background: rgb(34, 52, 76) !important;
+    color: rgb(255, 228, 3) !important;
+}
+
+/* 好友list页面的右键菜单等菜单鼠标悬停效果 */
+.popup_chat_frame:has(.PP7LM0Ow1K5qkR8WElLpt) ._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    background: rgb(34, 52, 76) !important;
+    color: rgb(255, 228, 3) !important;
+}
+
+/* 取消padding */
+.popup_chat_frame:has(.PP7LM0Ow1K5qkR8WElLpt) ._2EstNjFIIZm_WUSKm5Wt7n {
+    padding: 0;
+}
+
+.popup_chat_frame:has(.PP7LM0Ow1K5qkR8WElLpt) ._1n7Wloe5jZ6fSuvV18NNWI {
+    border: none;
+    padding: 8px 22px 8px 22px;
+}
+
+/* 首尾菜单项 */
+.PP7LM0Ow1K5qkR8WElLpt:has(._1n7Wloe5jZ6fSuvV18NNWI) ._1n7Wloe5jZ6fSuvV18NNWI:first-of-type {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 
 .EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf {
@@ -259,16 +305,18 @@
 
 .EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:hover,
 .EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:focus {
-    background: var(--bg-color-dark-blue) !important;
-    color: #fff !important;
+    background: rgb(34, 52, 76) !important;
+    color: rgb(255, 228, 3) !important;
 }
 
-._1n7Wloe5jZ6fSuvV18NNWI {
-    color: #000;
+body.ContextMenuPopupBody ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: rgb(33, 52, 76);
 }
 
-._1n7Wloe5jZ6fSuvV18NNWI:hover {
-    background: var(--bg-color-dark-blue);
+/* 好友list页面的右键菜单等菜单鼠标悬停效果 */
+body.ContextMenuPopupBody ._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    background: rgb(34, 52, 76) !important;
+    color: rgb(255, 228, 3) !important;
 }
 
 .RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW SVG,
@@ -301,14 +349,16 @@
 }
 
 /*当input框键入时改变的颜色*/
-.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path,
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path,
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
     fill: #72dbff;
 }
 
 /*chat滚动块*/
 .chatHistoryScroll {
     /*margin-top: 40px;*/
-    padding-top:40px ;
+    padding-top: 40px;
 }
 
 .msg.isCurrentUser.ChatMessageErrorSending {
@@ -317,7 +367,7 @@
 }
 
 /*滚动到底部*/
-.ScrollToBottomButton > span {
+.ScrollToBottomButton>span {
     background: #cde2f1 !important;
 }
 
@@ -325,31 +375,32 @@
     background: none;
 }
 
-.chatFileUploadPreviewContainer{
+.chatFileUploadPreviewContainer {
     background: var(--friend-list-bg-color);
 }
 
 /*两项上传图片卡片*/
 
-.chatFileUploadProgressContainer{
+.chatFileUploadProgressContainer {
     background: var(--friend-list-bg-color);
 }
 
 /*鼠标hover到用户头像上后*/
-.quickAccessFriends .favoriteElement:hover .friend .playerName{
+.quickAccessFriends .favoriteElement:hover .friend .playerName {
     color: #000;
 }
-.quickAccessFriends .friend.ingame{
+
+.quickAccessFriends .friend.ingame {
     color: #99cd5b;
 }
 
-.chatImageContainer img{
+.chatImageContainer img {
     /*调整图片到对的位置*/
     position: relative;
-    transform:translateY(-100%);
+    transform: translateY(-100%);
 }
 
-.MultiUserChat .isCurrentUser img{
+.MultiUserChat .isCurrentUser img {
     /*表情的msgText*/
     display: inline-block;
 }
@@ -359,20 +410,67 @@
     background: var(--momo-theme-color);
 }
 
-._1HNpQBKKKQ1tG2OZH3CSsh{
-    /*群聊名称*/
-    color: #448079;
-}
-.chatRoomGroupHeaderName{
+._1HNpQBKKKQ1tG2OZH3CSsh {
     /*群聊名称*/
     color: #448079;
 }
 
-.chatRoomTextChannel:hover, .chatRoomVoiceChannel:hover .chatRoomVoiceChannelName, .chatRoomTextChannel:hover .chatRoomTextChannel{
+.chatRoomGroupHeaderName {
+    /*群聊名称*/
+    color: #448079;
+}
+
+.chatRoomTextChannel:hover,
+.chatRoomVoiceChannel:hover .chatRoomVoiceChannelName,
+.chatRoomTextChannel:hover .chatRoomTextChannel {
     /*群聊分组hover效果*/
     color: #000;
 }
-.chatRoomTextChannel:hover .SVGIcon_TextRoom .TextLines{
+
+.chatRoomTextChannel:hover .SVGIcon_TextRoom .TextLines {
     /*群聊分组hover效果SVG*/
     stroke: #000;
+}
+
+.ContextMenuButton:has(svg) .SVGIcon_Button {
+    fill: #000 !important;
+}
+
+.dUQIH8Qg80N6kjB8UQO0P:has(._1SFqyFzFrpPOEAKCrq2kKZ) ._1SFqyFzFrpPOEAKCrq2kKZ {
+    background: rgb(214, 211, 250);
+    border: 1px solid rgb(105, 117, 147);
+    padding: 2px;
+}
+
+.dUQIH8Qg80N6kjB8UQO0P:has(._1SFqyFzFrpPOEAKCrq2kKZ) ._1SFqyFzFrpPOEAKCrq2kKZ:hover {
+    background: rgba(214, 211, 250, .2);
+}
+
+/* 表情页面图标 */
+.popup_chat_frame:has(._1mROo5bpUJSg8D8ILx7qpw) .SVGIcon_Button {
+    /* 第一个图标颜色 */
+    fill: rgb(35, 54, 79);
+}
+
+.popup_chat_frame:has(._2CJ0LpiSgVs2JuTlwbzBM) ._2CJ0LpiSgVs2JuTlwbzBM ._1mROo5bpUJSg8D8ILx7qpw {
+    color: rgb(35, 54, 79);
+}
+
+.popup_chat_frame:has(._2CJ0LpiSgVs2JuTlwbzBM) ._2CJ0LpiSgVs2JuTlwbzBM._1ddEQAfz6GuVRSEqk-d0r svg{
+    fill: rgb(66, 151, 248);
+}
+
+.popup_chat_frame:has(._2CJ0LpiSgVs2JuTlwbzBM) ._2CJ0LpiSgVs2JuTlwbzBM._1ddEQAfz6GuVRSEqk-d0r div{
+    color: rgb(66, 151, 248);
+}
+
+
+/* 右上角隐藏 关闭 最大小化图标 */
+
+body:has(#popup_target) .title-area-icon div {
+    color: black;
+}
+
+body:has(#popup_target) .title-area-icon .SVGIcon_X_Line line {
+    stroke: black;
 }

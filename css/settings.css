@@ -1,6 +1,11 @@
 @import url(../global.css);
 /* settings$ */
 
+/* 标题颜色 */
+body:has(._2rjVTGz8aLvqOdz5v2gq5C) ._2rjVTGz8aLvqOdz5v2gq5C {
+    color: #000;
+}
+
 .DialogContent._DialogLayout.CFTLX2wIKOK3hNV-fS7_V {
     background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1);
 }
@@ -93,13 +98,18 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
     color: #474a4d !important;
 }
 
-._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
-    color: #fff !important;
-    background: none;
+body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO {
+    border-right: 4px solid rgba(66, 151, 248, .0);
 }
 
-._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 ._1rD8X96FdnksZLvRRlEiCR {
-    color: #fff !important;
+body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
+    color: #fff;
+    background: none;
+    border-right: 4px solid rgb(66, 151, 248);
+}
+
+body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 ._1rD8X96FdnksZLvRRlEiCR {
+    color: #fff;
 }
 
 .online .nOdcT-MoOaXGePXLyPe0H {
@@ -108,4 +118,26 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
 
 .DialogBody a {
     color: var(--user-online-color);
+}
+
+/* 设置页面左侧图标与文字 排除当前页后的hover效果 */
+._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) {
+    background: rgba(255, 255, 255, .1);
+    color: #000;
+}
+
+/* 隐藏分割线 暂时不启用*/
+
+/* body:has(._1Hye7o1wYIfc9TE9QKRW4T) ._1Hye7o1wYIfc9TE9QKRW4T {
+    display: none;
+} */
+
+/* 右上角隐藏 关闭 最大小化图标 */
+
+body:has(.ModalPosition) .title-area-icon div {
+    color: black;
+}
+
+body:has(.ModalPosition) .title-area-icon .SVGIcon_X_Line line {
+    stroke: black;
 }

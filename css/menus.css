@@ -1,6 +1,6 @@
 @import url(../global.css);
 
-.DialogInput_Wrapper > input.DialogInput {
+.DialogInput_Wrapper>input.DialogInput {
     background: rgb(0 0 0 / 62%);
 }
 
@@ -16,39 +16,88 @@
     color: #666;
 }
 
-.contextMenuItem{
+.contextMenuItem {
     color: var(--nav-text-color) !important;
 }
 
-/*主题背景色*/
+/* 隐藏分割线 */
+._2EstNjFIIZm_WUSKm5Wt7n:has(hr) hr {
+    display: none;
+}
 
-._2EstNjFIIZm_WUSKm5Wt7n._3pofGqV0buiKAfMPEs3_82 {
-    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+/* 取消padding */
+body.ContextMenuPopupBody ._2EstNjFIIZm_WUSKm5Wt7n {
+    padding: 0;
+}
+
+.PP7LM0Ow1K5qkR8WElLpt:has(._1n7Wloe5jZ6fSuvV18NNWI) ._1n7Wloe5jZ6fSuvV18NNWI {
+    border: none;
+    padding: 8px 22px 8px 22px;
+}
+
+/* 首尾菜单项 */
+.PP7LM0Ow1K5qkR8WElLpt:has(._1n7Wloe5jZ6fSuvV18NNWI) ._1n7Wloe5jZ6fSuvV18NNWI:first-of-type {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+/* 最后一个菜单项 */
+.PP7LM0Ow1K5qkR8WElLpt:has(._1n7Wloe5jZ6fSuvV18NNWI) ._1n7Wloe5jZ6fSuvV18NNWI:last-of-type {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+._2EstNjFIIZm_WUSKm5Wt7n ._2jXHP0742MyApMUVUM8IFn {
+    color: rgb(33, 52, 76) !important;
+}
+
+/* hover效果 */
+._2EstNjFIIZm_WUSKm5Wt7n ._2jXHP0742MyApMUVUM8IFn:hover {
+    background: rgb(34, 52, 76) !important;
+    color: rgb(255, 228, 3) !important;
+}
+
+/* 圆角添加 */
+body.ContextMenuPopupBody .PP7LM0Ow1K5qkR8WElLpt {
+    background: transparent !important;
+}
+
+body.ContextMenuPopupBody ._2EstNjFIIZm_WUSKm5Wt7n {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+body.ContextMenuPopupBody .PP7LM0Ow1K5qkR8WElLpt.visible ._2EstNjFIIZm_WUSKm5Wt7n {
+    /*主题背景色*/
+    background: rgb(233, 232, 231) !important;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* steam应用最小化菜单页面背景 */
 .DesktopUI .PP7LM0Ow1K5qkR8WElLpt,
 ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
-    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+    background: rgb(233, 232, 231) !important;
 }
 
 /* friendlistMenus */
 .GreenEnvelopeMenu,
 .PP7LM0Ow1K5qkR8WElLpt {
-    background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+    background: rgb(233, 232, 231) !important;
 }
+
 /*主题背景色*/
 
-._1n7Wloe5jZ6fSuvV18NNWI:hover {
-    color: #fff !important;
-    background: #5a6069;
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI,
+._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: rgb(33, 52, 76) !important;
 }
 
-._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG:hover{
-    color: var(--nav-text-color) !important;
+.DesktopUI:has(._1n7Wloe5jZ6fSuvV18NNWI) ._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    background: rgb(34, 52, 76) !important;
+    color: rgb(255, 228, 3) !important;
 }
 
-.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI{
-    color: var(--nav-text-color) !important;
-
+.DesktopUI:has(._1n7Wloe5jZ6fSuvV18NNWI) .PP7LM0Ow1K5qkR8WElLpt hr {
+    display: none;
 }

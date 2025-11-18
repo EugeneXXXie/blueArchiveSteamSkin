@@ -10,6 +10,11 @@
     color: var(--text-color-dark);
 }
 
+/* 屏蔽插件本身页面的修改 */
+.MillenniumSettings .DialogDropDown_CurrentDisplay {
+    color: #fff;
+}
+
 ._2hfibYuzyMOQ0sj2egsHh0 {
     color: var(--text-color-dark);
 }
@@ -65,7 +70,7 @@
 }
 
 ._2gSXCB6PbOlMxslr8hm6dm {
-    background: url(../imgs/mainBG.png) no-repeat;
+    background: url(../imgs/libraryBG.png) no-repeat;
     background-size: cover;
 }
 
@@ -129,7 +134,7 @@
 }
 
 .RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2 {
-    background-color: rgb(184, 237, 255);
+    background-color: #cee5f3;
 }
 
 ._3Z7VQ1IMk4E3HsHvrkLNgo {
@@ -197,7 +202,7 @@
 }
 
 ._1l0LmmqDUXH19SjfELddn7 {
-    background: url(../imgs/qla2kEBs.jpeg) no-repeat;
+    background: url(../imgs/downloadBG.jpeg) no-repeat;
     background-position: center center;
     background-size: cover;
 }
@@ -238,6 +243,33 @@ body._2LxgdMcpWJRjkxZKbmeEEb {
 
 ._3KDkLoCR8OM8xfdQysKn9t {
     background: #88a9cf;
+}
+
+/* 下载页面下载信息栏 */
+._373v1eWNyaPKhgnea9FZSt:has(._20JlDJD9-uoCjNLGp_8mY6) ._20JlDJD9-uoCjNLGp_8mY6 {
+    background: rgb(233, 232, 231);
+}
+
+._373v1eWNyaPKhgnea9FZSt:has(._20JlDJD9-uoCjNLGp_8mY6) ._20JlDJD9-uoCjNLGp_8mY6 .eXF8xL2LUtzeWMbK-FSRz {
+    color: rgb(33, 52, 76);
+}
+
+._373v1eWNyaPKhgnea9FZSt:has(._20JlDJD9-uoCjNLGp_8mY6) ._20JlDJD9-uoCjNLGp_8mY6 ._1iulCOMUxV6sBbqoKo_yXw {
+    color: rgb(45, 70, 99);
+}
+
+/* 下载图标颜色 */
+._373v1eWNyaPKhgnea9FZSt:has(._22WcrscaQSqK56PQKgf5YG) ._22WcrscaQSqK56PQKgf5YG .-OgRzXqfwOvAWFZS3Rk_N {
+    color: #000;
+}
+
+/* 下载速度文字颜色 */
+._373v1eWNyaPKhgnea9FZSt ._3a973VY2X3US_cZqA9ZgNF {
+    color: #000;
+}
+
+._373v1eWNyaPKhgnea9FZSt ._35T9nZ2RsVs8kf7OMPlaxe {
+    color: rgb(33, 52, 76);
 }
 
 ._1SyggnJY6qbRSmbZpkK3-H .FuJLsEk_Umr68UjGanMno {
@@ -282,7 +314,7 @@ body._2LxgdMcpWJRjkxZKbmeEEb {
 }
 
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
-    background: #88a9cf;
+    background: #cee5f3;
 }
 
 ._1_cYNJSvS6IXs9vLTEYjy5 {
@@ -290,7 +322,7 @@ body._2LxgdMcpWJRjkxZKbmeEEb {
 }
 
 ._1ENHEsrSLcTRtPQFl1F-wL {
-    background: url(../imgs/2PvxbRjv.jpeg) no-repeat;
+    background: url(../imgs/mainBG.jpeg) no-repeat;
     background-position: center center;
     background-size: cover;
 }
