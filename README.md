@@ -50,3 +50,11 @@ For detailed instructions on installing Millennium, please visit [steambrew.app]
 *Navigate to Settings -> Interface, and select the Blue Archive theme*
 
 Enjoy your new Blue Archive Steam theme!
+
+---
+
+### ⚖️ License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
