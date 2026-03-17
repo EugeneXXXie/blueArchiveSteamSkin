@@ -1,28 +1,42 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
+# ------------------------------
+# OS / file explorer junk
+# ------------------------------
 .DS_Store
-dist
-dist-ssr
-coverage
+Thumbs.db
+desktop.ini
+
+# ------------------------------
+# Logs / temporary files
+# ------------------------------
+logs/
+*.log
+*.tmp
+*.temp
+
+# ------------------------------
+# Package manager / build outputs
+# (kept in case you add a build tool later)
+# ------------------------------
+node_modules/
+dist/
+coverage/
+
+# ------------------------------
+# Local env / machine-only config
+# ------------------------------
+.env
+.env.*
 *.local
 
-/cypress/videos/
-/cypress/screenshots/
-
-# Editor directories and files
+# ------------------------------
+# Editor / IDE
+# ------------------------------
+.idea/
 .vscode/*
 !.vscode/extensions.json
-.idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.swp
+*.swo
