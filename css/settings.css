@@ -49,7 +49,7 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
 }
 
 .offline .nOdcT-MoOaXGePXLyPe0H {
-    color: #444;
+    color: var(--friend-list-bg-color);
 }
 
 ._2kbiwbjuXdmtPSK_YaZCMU,
@@ -75,7 +75,7 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
 }
 
 ._2LyGIHuQ8SFKb5T262YUvg {
-    background: var(--main-bg-color);
+    background: var(--bg-color-light-gray);
 }
 
 ._1W1to_azoBRG95oNAFpf9Q {
@@ -140,4 +140,139 @@ body:has(.ModalPosition) .title-area-icon div {
 
 body:has(.ModalPosition) .title-area-icon .SVGIcon_X_Line line {
     stroke: black;
+}
+
+/* ===== Phase 1: Settings Page Refactor (non-destructive overrides) ===== */
+/* 说明：
+   1) 仅追加覆盖，不删除原规则，便于回退
+   2) 新增规则全部使用 body:has(.xxx) .xxx 形式
+*/
+
+/* 主题变量（仅在设置页容器出现时生效） */
+body:has(._2sssIwe0duyIrFvat2oXzH) {
+    --ba-setting-bg: #e9f2f8;
+    --ba-panel-bg: #fdfefe;
+    --ba-panel-border: #d9e2ea;
+    --ba-text-main: #1e2a35;
+    --ba-text-sub: #5f7080;
+    --ba-accent-blue: #bfe4f7;
+    --ba-accent-blue-strong: #6bb7de;
+    --ba-accent-yellow: #f1d67a;
+}
+
+/* 主容器改为浅色游戏设置质感 */
+body:has(._2sssIwe0duyIrFvat2oXzH) ._2sssIwe0duyIrFvat2oXzH {
+    background: linear-gradient(180deg, var(--ba-setting-bg) 0%, #dfeaf3 100%) !important;
+    color: var(--ba-text-main);
+}
+
+/* 左侧栏目壳 */
+body:has(._2kwFFHckg8jvnwJfg9-la8) ._2kwFFHckg8jvnwJfg9-la8 {
+    background: #f7fbff !important;
+    border-right: 1px solid var(--ba-panel-border);
+}
+
+/* 左侧每个导航项：默认态 */
+body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO {
+    border-right: 4px solid transparent !important;
+    color: var(--ba-text-main) !important;
+    border-radius: 8px;
+    margin: 2px 8px;
+    transition: background-color .18s ease, border-color .18s ease;
+}
+
+/* 左侧导航 hover */
+body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) {
+    background: rgba(191, 228, 247, .45) !important;
+    color: var(--ba-text-main) !important;
+}
+
+/* 左侧导航选中态（更贴近图2） */
+body:has(._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
+    background: var(--ba-accent-blue) !important;
+    border-right: 4px solid var(--ba-accent-blue-strong) !important;
+    color: #123247 !important;
+}
+
+body:has(._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 ._1rD8X96FdnksZLvRRlEiCR {
+    color: #123247 !important;
+}
+
+/* 右侧内容区：白色卡片化 */
+body:has(._2SZZxvBUq6zL6A6eSYSLv) ._2SZZxvBUq6zL6A6eSYSLv,
+body:has(.DialogContent) .DialogContent {
+    background: var(--ba-panel-bg) !important;
+    border: 1px solid var(--ba-panel-border);
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 35, 70, .06);
+}
+
+/* 标题与副标题层级 */
+body:has(.DialogHeader) .DialogHeader,
+body:has(.SettingsDialogSubHeader) .SettingsDialogSubHeader {
+    color: var(--ba-text-main) !important;
+}
+
+body:has(.DialogBodyText) .DialogBodyText {
+    color: var(--ba-text-sub) !important;
+}
+
+/* 分组标题强调（青色竖条） */
+body:has(.DialogSubHeader) .DialogSubHeader {
+    color: #2084b8 !important;
+    border-left: 3px solid #5dc0de;
+    padding-left: 8px;
+    margin-left: 2px;
+}
+
+/* 顶部标题下的黄色强调线（轻量） */
+body:has(._2rjVTGz8aLvqOdz5v2gq5C) ._2rjVTGz8aLvqOdz5v2gq5C {
+    position: relative;
+    color: #1f2f3d !important;
+}
+
+body:has(._2rjVTGz8aLvqOdz5v2gq5C) ._2rjVTGz8aLvqOdz5v2gq5C::after {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 3px;
+    border-radius: 2px;
+    margin-top: 6px;
+    background: var(--ba-accent-yellow);
+}
+
+body:has(.DialogContentTransition) .DialogContentTransition {
+    background: #fdfefe;
+}
+
+body:has(._2bl0iQ9xigbq4Zd1NI6NZl) ._2bl0iQ9xigbq4Zd1NI6NZl {
+    background: rgb(199, 199, 199);
+}
+
+/* 家庭图标 */
+body:has(._1RfVQWVozb8NJ_wmCLAtxP) ._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP>svg {
+    color: #000;
+}
+
+body:has(._3Wb9yDmYPUJksCr7HmaT9H) button.TEWmsM70ZLEOxLAjDMpcv ._3Wb9yDmYPUJksCr7HmaT9H {
+    color: var(--bg-color-light-gray);
+}
+
+body:has(._3wadwgMy2-9k8uOKh3iSdT) button.TEWmsM70ZLEOxLAjDMpcv ._3wadwgMy2-9k8uOKh3iSdT {
+    color: #fff;
+}
+
+body:has(._1RCWDLVLFja1TdD1P53BMq) ._1RCWDLVLFja1TdD1P53BMq{
+    color: #bfbfbf;
+}
+
+body:has(._1DFCGL1HyqZkIjEaoNLdjf) ._1DFCGL1HyqZkIjEaoNLdjf{
+    color: #000 !important;
+}
+
+body:has(.mohK9opGjpCsWNdUuJuFE) .mohK9opGjpCsWNdUuJuFE{
+    color: #000 !important;
+}
+body:has(.YxhO6W2VNKG69k4WqIrip) .YxhO6W2VNKG69k4WqIrip{
+    color: #000 !important;
 }

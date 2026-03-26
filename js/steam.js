@@ -39,14 +39,13 @@
             )[0];
             // console.log(newsBlock);
             try {
-              let isHideBtn = document.getElementsByClassName('hideBtn')[0];
+              let isHideBtn = document.getElementsByClassName("hideBtn")[0];
               if (isHideBtn) isInjection = false;
             } catch (e) {
               // console.log(e);
             }
-            let isInjectionMomo = document.getElementsByClassName(
-              "momoIconIsInject"
-            )[0]; // 标记按钮是否已插入
+            let isInjectionMomo =
+              document.getElementsByClassName("momoIconIsInject")[0]; // 标记按钮是否已插入
             if (friendsBtn && !isInjectionMomo) {
               friendsBtn.innerHTML = momoIcon;
             }

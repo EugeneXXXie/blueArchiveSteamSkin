@@ -1,13 +1,14 @@
 @import url(../global.css);
+
+body {
+    background: #1b2838;
+}
+
 .responsive_page_template_content {
     background: none !important;
 }
 
 .home_ctn.tab_container {
-    background: none !important;
-}
-
-body.v6 {
     background: none !important;
 }
 
@@ -18,15 +19,35 @@ body.v6 {
 .home_ctn.home_content_ctn.bottom_content {
     display: none !important;
 }
+
 .small_footer {
     display: none !important;
 }
 
-.responsive_page_content_overlay {
+/* 1) 商店页（shop） */
+.responsive_page_frame:has(#home_hero_ctn.home_featured_ctn.hero_parent_ctn) .responsive_page_content_overlay {
     z-index: -1 !important;
     opacity: 1 !important;
     visibility: visible !important;
-    background: url(../imgs/shopBG.jfif) no-repeat center center !important;
+    background: url(../imgs/shopBG.png) no-repeat center center !important;
+    background-size: cover !important;
+}
+
+/* 2) 社区页（community） */
+.responsive_page_frame:has(.apphub_background):has(#AppHubContent.apphub_Content) .responsive_page_content_overlay {
+    z-index: -1 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: url(../imgs/communityBG.png) no-repeat center center !important;
+    background-size: cover !important;
+}
+
+/* 3) 其他页面 fallback */
+.responsive_page_frame:not(:has(#home_hero_ctn.home_featured_ctn.hero_parent_ctn)):not(:has(.apphub_background)):not(:has(#AppHubContent.apphub_Content)) .responsive_page_content_overlay {
+    z-index: -1 !important;
+    opacity: .7 !important;
+    visibility: visible !important;
+    background: url(../imgs/fallbackOverBG.png) no-repeat center center !important;
     background-size: cover !important;
 }
 
@@ -51,5 +72,16 @@ body.v6 .page_content_ctn.dark {
 }
 
 .game_page_background.game {
-    background: none !important ;
+    background: none !important;
+}
+
+/* webkit footer text color */
+
+div#footer.compact .footer_content #footerText,
+div#footer.compact .footer_content #footerText a {
+    color: #000 !important;
+}
+
+body:has(.community_home_subtitle) .community_home_subtitle{
+    color: #d5e2ed;
 }

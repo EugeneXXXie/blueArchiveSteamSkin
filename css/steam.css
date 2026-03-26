@@ -6,13 +6,10 @@
     font-weight: 300;
 }
 
-.DialogDropDown_CurrentDisplay {
-    color: var(--text-color-dark);
-}
 
-/* 屏蔽插件本身页面的修改 */
-.MillenniumSettings .DialogDropDown_CurrentDisplay {
-    color: #fff;
+/* 修改库页面下的标题文字的字体颜色 */
+._3BFcmjAaMyP6GTPwc0VyWi:has(.DialogDropDown_CurrentDisplay) .DialogDropDown_CurrentDisplay {
+    color: var(--text-color-dark);
 }
 
 ._2hfibYuzyMOQ0sj2egsHh0 {

@@ -1,42 +1,23 @@
-# ------------------------------
-# OS / file explorer junk
-# ------------------------------
+# OS junk
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ------------------------------
-# Logs / temporary files
-# ------------------------------
-logs/
+# Logs / temp
 *.log
 *.tmp
 *.temp
 
-# ------------------------------
-# Package manager / build outputs
-# (kept in case you add a build tool later)
-# ------------------------------
-node_modules/
-dist/
-coverage/
-
-# ------------------------------
-# Local env / machine-only config
-# ------------------------------
+# Local env (if used later)
 .env
 .env.*
 *.local
 
-# ------------------------------
-# Editor / IDE
-# ------------------------------
+# IDE
 .idea/
 .vscode/*
 !.vscode/extensions.json
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+
+# Vim
 *.swp
 *.swo

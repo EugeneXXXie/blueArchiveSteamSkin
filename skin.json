@@ -13,7 +13,7 @@
         {
             "MatchRegexString": ".friendsui-container",
             "TargetCss": "./css/friends.custom.css",
-            "TargetJs": "./js/friends.custom.css.js"
+            "TargetJs": "./js/friends.custom.js"
         },
         {
             "MatchRegexString": "Menu$",
@@ -28,7 +28,7 @@
     "author": "EugeneXXXie",
     "description": "BlueArchive Steam theme",
     "name": "BlueArchive",
-    "version": "1.3.3",
+    "version": "1.3.52",
     "github": {
         "owner": "EugeneXXXie",
         "repo_name": "blueArchiveSteamSkin"
