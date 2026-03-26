@@ -199,8 +199,7 @@ body:has(._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7) ._1-vlriAtKYDViAEunue
 }
 
 /* 右侧内容区：白色卡片化 */
-body:has(._2SZZxvBUq6zL6A6eSYSLv) ._2SZZxvBUq6zL6A6eSYSLv,
-body:has(.DialogContent) .DialogContent {
+body.ModalDialogBody:has(.PopupFullWindow) .DialogContentTransition .DialogContent {
     background: var(--ba-panel-bg) !important;
     border: 1px solid var(--ba-panel-border);
     border-radius: 10px;
@@ -262,17 +261,18 @@ body:has(._3wadwgMy2-9k8uOKh3iSdT) button.TEWmsM70ZLEOxLAjDMpcv ._3wadwgMy2-9k8u
     color: #fff;
 }
 
-body:has(._1RCWDLVLFja1TdD1P53BMq) ._1RCWDLVLFja1TdD1P53BMq{
+body:has(._1RCWDLVLFja1TdD1P53BMq) ._1RCWDLVLFja1TdD1P53BMq {
     color: #bfbfbf;
 }
 
-body:has(._1DFCGL1HyqZkIjEaoNLdjf) ._1DFCGL1HyqZkIjEaoNLdjf{
+body:has(._1DFCGL1HyqZkIjEaoNLdjf) ._1DFCGL1HyqZkIjEaoNLdjf {
     color: #000 !important;
 }
 
-body:has(.mohK9opGjpCsWNdUuJuFE) .mohK9opGjpCsWNdUuJuFE{
+body:has(.mohK9opGjpCsWNdUuJuFE) .mohK9opGjpCsWNdUuJuFE {
     color: #000 !important;
 }
-body:has(.YxhO6W2VNKG69k4WqIrip) .YxhO6W2VNKG69k4WqIrip{
+
+body:has(.YxhO6W2VNKG69k4WqIrip) .YxhO6W2VNKG69k4WqIrip {
     color: #000 !important;
 }
