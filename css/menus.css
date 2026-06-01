@@ -101,3 +101,17 @@ body.ContextMenuPopupBody .PP7LM0Ow1K5qkR8WElLpt.visible ._2EstNjFIIZm_WUSKm5Wt7
 .DesktopUI:has(._1n7Wloe5jZ6fSuvV18NNWI) .PP7LM0Ow1K5qkR8WElLpt hr {
     display: none;
 }
+
+/* 通知页面字体颜色 */
+body:has(._3zQLPuC3M-NPNa1tVda9Dz) ._3zQLPuC3M-NPNa1tVda9Dz{
+    color: #000;
+}
+
+
+body:has(._2uHOsFCB_RZYZFsMQiw28v) ._2uHOsFCB_RZYZFsMQiw28v{
+    color: #000;
+}
+
+body:has(.cam5nVZiJHP17RZlbXzmE) .cam5nVZiJHP17RZlbXzmE{
+    color: #474340;
+}

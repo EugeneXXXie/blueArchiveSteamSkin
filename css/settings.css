@@ -49,7 +49,7 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
 }
 
 .offline .nOdcT-MoOaXGePXLyPe0H {
-    color: var(--friend-list-bg-color);
+    color: var(--text-color-dark);
 }
 
 ._2kbiwbjuXdmtPSK_YaZCMU,
@@ -275,4 +275,35 @@ body:has(.mohK9opGjpCsWNdUuJuFE) .mohK9opGjpCsWNdUuJuFE {
 
 body:has(.YxhO6W2VNKG69k4WqIrip) .YxhO6W2VNKG69k4WqIrip {
     color: #000 !important;
+}
+
+/* 取消元素背景色 */
+.MillenniumWindow_Settings:has(.eKmEXJCm_lgme24Fp_HWt ) .eKmEXJCm_lgme24Fp_HWt {
+    background: none;
+}
+
+/* 修改存储空间页面最后运行日期文字颜色 */
+
+.MillenniumWindow_Settings:has(._1G9v2mshuM0YQNG51iX5fH) ._1G9v2mshuM0YQNG51iX5fH {
+    color: #364455 !important;
+}
+
+.MillenniumWindow_Settings:has(.ReactVirtualized__Grid__innerScrollContainer) .ReactVirtualized__Grid__innerScrollContainer svg{
+    color: #364455 !important;
+}
+
+.MillenniumWindow_Settings:has(._3HOm6KmoXLktGGI2qrr6bu) ._3HOm6KmoXLktGGI2qrr6bu{
+    color: #364455 !important;
+}
+
+.MillenniumWindow_Settings:has(._3Vl2zkYPoCpw1q_1n28D3z) ._3Vl2zkYPoCpw1q_1n28D3z{
+    background: none;
+}
+
+.MillenniumWindow_Settings:has(._7EGqd8bdiXJBd2fj5Hh8r) ._7EGqd8bdiXJBd2fj5Hh8r{
+    background: #DCD9D1;
+}
+
+.MillenniumWindow_Settings:has(._7EGqd8bdiXJBd2fj5Hh8r) ._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._1RUoX0kTOBfqpwCaBZGDLJ{
+    color: #474340;
 }
