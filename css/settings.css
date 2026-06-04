@@ -1,4 +1,17 @@
 @import url(../global.css);
+
+/* 主题变量（仅在设置页容器出现时生效） */
+body {
+    --ba-setting-bg: #e9f2f8;
+    --ba-panel-bg: #fdfefe;
+    --ba-panel-border: #d9e2ea;
+    --ba-text-main: #1e2a35;
+    --ba-text-sub: #5f7080;
+    --ba-accent-blue: #bfe4f7;
+    --ba-accent-blue-strong: #6bb7de;
+    --ba-accent-yellow: #f1d67a;
+}
+
 /* settings$ */
 
 /* 标题颜色 */
@@ -92,6 +105,8 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
 
 .DialogContent {
     background: linear-gradient(to bottom right, var(--main-bg-color), #cde2f1) !important;
+    /* 新版背景色↓ 暂未启用 未debug*/
+    /* background: linear-gradient(180deg, var(--ba-setting-bg) 0%, #dfeaf3 100%) ; */
 }
 
 .DialogBodyText {
@@ -147,18 +162,6 @@ body:has(.ModalPosition) .title-area-icon .SVGIcon_X_Line line {
    1) 仅追加覆盖，不删除原规则，便于回退
    2) 新增规则全部使用 body:has(.xxx) .xxx 形式
 */
-
-/* 主题变量（仅在设置页容器出现时生效） */
-body:has(._2sssIwe0duyIrFvat2oXzH) {
-    --ba-setting-bg: #e9f2f8;
-    --ba-panel-bg: #fdfefe;
-    --ba-panel-border: #d9e2ea;
-    --ba-text-main: #1e2a35;
-    --ba-text-sub: #5f7080;
-    --ba-accent-blue: #bfe4f7;
-    --ba-accent-blue-strong: #6bb7de;
-    --ba-accent-yellow: #f1d67a;
-}
 
 /* 主容器改为浅色游戏设置质感 */
 body:has(._2sssIwe0duyIrFvat2oXzH) ._2sssIwe0duyIrFvat2oXzH {
@@ -277,8 +280,13 @@ body:has(.YxhO6W2VNKG69k4WqIrip) .YxhO6W2VNKG69k4WqIrip {
     color: #000 !important;
 }
 
-/* 取消元素背景色 */
-.MillenniumWindow_Settings:has(.eKmEXJCm_lgme24Fp_HWt ) .eKmEXJCm_lgme24Fp_HWt {
+/* 取消设置/游戏属性页面元素背景色 */
+.MillenniumWindow_Settings:has(.eKmEXJCm_lgme24Fp_HWt) .eKmEXJCm_lgme24Fp_HWt,
+.MillenniumWindow_GameProperties:has(.eKmEXJCm_lgme24Fp_HWt) .eKmEXJCm_lgme24Fp_HWt {
+    background: none;
+}
+
+.MillenniumWindow_GameProperties:has(.eKmEXJCm_lgme24Fp_HWt) .eKmEXJCm_lgme24Fp_HWt {
     background: none;
 }
 
@@ -288,22 +296,127 @@ body:has(.YxhO6W2VNKG69k4WqIrip) .YxhO6W2VNKG69k4WqIrip {
     color: #364455 !important;
 }
 
-.MillenniumWindow_Settings:has(.ReactVirtualized__Grid__innerScrollContainer) .ReactVirtualized__Grid__innerScrollContainer svg{
+.MillenniumWindow_Settings:has(.ReactVirtualized__Grid__innerScrollContainer) .ReactVirtualized__Grid__innerScrollContainer svg {
     color: #364455 !important;
 }
 
-.MillenniumWindow_Settings:has(._3HOm6KmoXLktGGI2qrr6bu) ._3HOm6KmoXLktGGI2qrr6bu{
+.MillenniumWindow_Settings:has(._3HOm6KmoXLktGGI2qrr6bu) ._3HOm6KmoXLktGGI2qrr6bu {
     color: #364455 !important;
 }
 
-.MillenniumWindow_Settings:has(._3Vl2zkYPoCpw1q_1n28D3z) ._3Vl2zkYPoCpw1q_1n28D3z{
+.MillenniumWindow_Settings:has(._3Vl2zkYPoCpw1q_1n28D3z) ._3Vl2zkYPoCpw1q_1n28D3z {
     background: none;
 }
 
-.MillenniumWindow_Settings:has(._7EGqd8bdiXJBd2fj5Hh8r) ._7EGqd8bdiXJBd2fj5Hh8r{
+.MillenniumWindow_Settings:has(._7EGqd8bdiXJBd2fj5Hh8r) ._7EGqd8bdiXJBd2fj5Hh8r {
     background: #DCD9D1;
 }
 
-.MillenniumWindow_Settings:has(._7EGqd8bdiXJBd2fj5Hh8r) ._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._1RUoX0kTOBfqpwCaBZGDLJ{
+.MillenniumWindow_Settings:has(._7EGqd8bdiXJBd2fj5Hh8r) ._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._1RUoX0kTOBfqpwCaBZGDLJ {
     color: #474340;
+}
+
+/* 录制与截图页面的头部尾部黑色渐变背景色隐藏 */
+.ModalDialogBody:has(.YzIcpcz4oFx-nndxro5jE) .YzIcpcz4oFx-nndxro5jE,
+.ModalDialogBody:has(._162CJAH8jPwIYGGg5Q2YIc) ._162CJAH8jPwIYGGg5Q2YIc {
+    background: none;
+}
+
+/* 调整游戏属性选项页面 */
+body:has(.cbinvNOoQE045ZV5gCk_N) .cbinvNOoQE045ZV5gCk_N {
+    color: #746D65;
+}
+
+body:has(._3g-QHB82IGz91Hsk1Hw4lh) ._3g-QHB82IGz91Hsk1Hw4lh {
+    color: #232120;
+}
+
+body:has(.TlSg5YiFT0KKv6hj9YlKm) .TlSg5YiFT0KKv6hj9YlKm {
+    color: #474340;
+}
+
+body:has(._3H9mJurCFIkAqvWpYfEaDM) ._3H9mJurCFIkAqvWpYfEaDM {
+    color: #232120;
+}
+
+body:has(._3cAh02omVEUuC1wX2K36Ma) ._3cAh02omVEUuC1wX2K36Ma {
+    color: #474340;
+}
+
+._3PdB1VQrU1sU5KGongHSGH .a19KifKnB2YZP_hYoFsar {
+    color: #201C19 !important;
+}
+
+._3PdB1VQrU1sU5KGongHSGH .a19KifKnB2YZP_hYoFsar:hover {
+    color: #000 !important;
+}
+
+.ModalDialogBody:has(._1SKB0Xc7OpWlOlr-wSi8ho) ._1SKB0Xc7OpWlOlr-wSi8ho {
+    background: #3A485E !important;
+}
+
+.ModalDialogBody:has(._3sXdOJ9DEh5zdS54_ptwgW) ._3sXdOJ9DEh5zdS54_ptwgW {
+    background: #3a485eb3;
+}
+
+.ModalDialogBody:has(._3puO0PC58oWnOGJgisPvgZ) ._3puO0PC58oWnOGJgisPvgZ .dR1gzt2Xg4CjsE9T0Q4Lc {
+    color: #a5abce;
+}
+
+.ModalDialogBody:has(.pht3SaejGcAJEjNG8d6nd) .pht3SaejGcAJEjNG8d6nd {
+    background: #EDF4FB !important;
+}
+
+._3SPlcoJKzx2TM4WVMW9Xpt .a19KifKnB2YZP_hYoFsar {
+    color: #201C19;
+}
+
+.ModalDialogBody:has(._3SPlcoJKzx2TM4WVMW9Xpt) ._3SPlcoJKzx2TM4WVMW9Xpt {
+    border: #838388 1px solid !important;
+}
+
+.ModalDialogBody:has(._2H4LypEOvoKY3pHtDIpt5l) ._2H4LypEOvoKY3pHtDIpt5l {
+    color: #201C19 !important;
+}
+
+.ModalDialogBody:has(.DialogDropDown) ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown:hover {
+    background: #B9B2A7;
+}
+
+.ModalDialogBody:has(._30wJO3MC4x-I1OWpy1TAeE) ._30wJO3MC4x-I1OWpy1TAeE {
+    background: rgba(59, 63, 72, .95);
+}
+
+.ModalDialogBody:has(._30wJO3MC4x-I1OWpy1TAeE) ._30wJO3MC4x-I1OWpy1TAeE * {
+    color: #C4C0B7;
+}
+
+.ModalDialogBody:has(._2oAiZidGyUxL-hfupFDQ2m) ._2oAiZidGyUxL-hfupFDQ2m:focus {
+    background: var(--ba-setting-bg);
+}
+
+.ModalDialogBody:has(._2oAiZidGyUxL-hfupFDQ2m) ._2oAiZidGyUxL-hfupFDQ2m:focus * {
+    color: #160D07;
+}
+
+.ModalDialogBody:has(.DialogInput) .DialogInput::placeholder {
+    color: #666;
+}
+
+.ModalDialogBody:has(._1LCoWsUrJmZHr7SVX0luaG) ._1LCoWsUrJmZHr7SVX0luaG {
+    background: var(--ba-accent-blue) !important;
+}
+
+.ModalDialogBody:has(._3jWpi0kJp_piNEvdMufMmy) ._3jWpi0kJp_piNEvdMufMmy {
+    border: 1px solid #F1EBE4 !important;
+}
+
+.ModalDialogBody:has(.OX7USkJ5dDP_icD00Gal6) .OX7USkJ5dDP_icD00Gal6 .a19KifKnB2YZP_hYoFsar,
+.ModalDialogBody:has(.OX7USkJ5dDP_icD00Gal6) .OX7USkJ5dDP_icD00Gal6 ._3OwCSCZC5BPFq4X7PLVzKp,
+.ModalDialogBody:has(.OX7USkJ5dDP_icD00Gal6) .OX7USkJ5dDP_icD00Gal6 ._33vTXbnDrHUQCTEKwJC3Eh {
+    color: #201C19;
+}
+
+.ModalDialogBody:has(.X3pN_ESh0aoxmm2nK65Hu) .X3pN_ESh0aoxmm2nK65Hu {
+    background: #bfe4f79e !important;
 }
