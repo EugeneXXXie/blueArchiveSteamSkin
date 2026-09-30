@@ -420,3 +420,25 @@ body:has(._3cAh02omVEUuC1wX2K36Ma) ._3cAh02omVEUuC1wX2K36Ma {
 .ModalDialogBody:has(.X3pN_ESh0aoxmm2nK65Hu) .X3pN_ESh0aoxmm2nK65Hu {
     background: #bfe4f79e !important;
 }
+
+/* 情报速递页面 */
+.ModalDialogBody:has(._2JKpGzeAiwmBdY73bfRXz-) ._2JKpGzeAiwmBdY73bfRXz- {
+    background-color: var(--ba-panel-bg);
+}
+
+._2JKpGzeAiwmBdY73bfRXz-:has(.DialogLabel, .DialogLabelStrong) .DialogLabel,
+.DialogLabelStrong {
+    color: black;
+}
+
+._2JKpGzeAiwmBdY73bfRXz-:has(._3Hf53stS1-9flruoPqwO0O-) ._3Hf53stS1-9flruoPqwO0O {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+._2JKpGzeAiwmBdY73bfRXz-:has(.DialogLabelSoft) .DialogLabelSoft {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+._2JKpGzeAiwmBdY73bfRXz-:has(.DialogToggle_Description) .DialogToggle_Description {
+    color: #666360;
+}
